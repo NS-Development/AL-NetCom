@@ -1,0 +1,28 @@
+permissionset 50100 NetCom_Permissions
+{
+    Assignable = true;
+    Permissions = tabledata "Calc. Price Buffer" = RIMD,
+        tabledata "NetCom Customer Price Service" = RIMD,
+        table "Calc. Price Buffer" = X,
+        table "NetCom Customer Price Service" = X,
+        report "NetCom Customer Price List" = X,
+        codeunit "Calc. Price Buffer - Price" = X,
+        codeunit "NetCom Customer Price Service" = X,
+        codeunit "NetCom Event Subscriber" = X,
+        codeunit "NetCom NSW Event Subscriber" = X,
+        xmlport "NetCom Import Item Primo" = X,
+        page CalcTempPrice = X,
+        page "NetCom Customer Price Service" = X,
+        tabledata "NetCom OneDrive Setup" = RIMD,
+        table "NetCom OneDrive Setup" = X,
+        codeunit "NetCom One Drive Graph API" = X,
+        page "NetCom OneDrive Activites" = X,
+        page "NetCom OneDrive Setup" = X,
+        codeunit "NetCom Scan Functions" = X,
+        page "NetCom Sales order Scan" = X,
+        page "NetCom Sales Order Scan Lines" = X,
+        page "NetCom Scan Update Quantity" = X,
+        tabledata "NetCom Report Buffer Table" = RIMD,
+        table "NetCom Report Buffer Table" = X,
+        report "NetCom Analysis" = X;
+}

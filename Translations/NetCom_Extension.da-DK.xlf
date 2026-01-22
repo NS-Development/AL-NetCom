@@ -1,0 +1,1785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="da-DK" original="NetCom_Extension">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2439438250 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CalcPrice</source>
+          <target state="translated">Beregn pris</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Calc. Price Buffer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2439438250 - NamedType 3201150890" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have set the line amount to a value that results in a discount that is not valid. Consider increasing the unit price instead.</source>
+          <target state="translated">Du har angivet linjebeløbet til en værdi, der resulterer i en rabat, der er ugyldig. Overvej at forøge enhedsprisen i stedet.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Calc. Price Buffer - NamedType LineAmountInvalidErr</note>
+        </trans-unit>
+        <trans-unit id="Table 2439438250 - NamedType 1126852379" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The value in the Line Discount % field must be between 0 and 100.</source>
+          <target state="translated">Værdien i feltet Linerabat % skal være mellem 0 og 100.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Calc. Price Buffer - NamedType LineDiscountPctErr</note>
+        </trans-unit>
+        <trans-unit id="Table 2439438250 - Field 846113807 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allow Invoice Discount</source>
+          <target state="translated">Tillad fakturarabat</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Calc. Price Buffer - Field Allow Invoice Discount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2439438250 - Field 310271998 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allow Line Discount</source>
+          <target state="translated">Tillad linjerabat</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Calc. Price Buffer - Field Allow Line Discount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2439438250 - Field 2307865039 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calculation Date</source>
+          <target state="translated">Beregningsdato</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Calc. Price Buffer - Field Calculation Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2439438250 - Field 202036913 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to Contact No.</source>
+          <target state="translated">Kundeattentionnr.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Calc. Price Buffer - Field Contact No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2439438250 - Field 4198939294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <target state="translated">Valutakode</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Calc. Price Buffer - Field Currency Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2439438250 - Field 2324056710 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Factor</source>
+          <target state="translated">Valutafaktor</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Calc. Price Buffer - Field Currency Factor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2439438250 - Field 273731812 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Disc. Group</source>
+          <target state="translated">Debitorrabatgruppe</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Calc. Price Buffer - Field Customer Disc. Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2439438250 - Field 2725149570 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Price Group</source>
+          <target state="translated">Debitorprisgruppe</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Calc. Price Buffer - Field Customer Price Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2439438250 - Field 4149398547 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CustomerVendorNo</source>
+          <target state="translated">Debitor / Kreditornr.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Calc. Price Buffer - Field CustomerVendorNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2439438250 - Field 3348941625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Key</source>
+          <target state="translated">Nøgle</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Calc. Price Buffer - Field Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2439438250 - Field 2702998682 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line Discount %</source>
+          <target state="translated">Linerabat %</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Calc. Price Buffer - Field Line Discount % - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2439438250 - Field 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <target state="translated">Lokationskode</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Calc. Price Buffer - Field Location Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2439438250 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target state="translated">Nummer</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Calc. Price Buffer - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2439438250 - Field 3543273655 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Price Asset Type</source>
+          <target state="translated">Pristype</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Calc. Price Buffer - Field Price Asset Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2439438250 - Field 3428108069 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Price Calculation Method</source>
+          <target state="translated">Prisberegningsmetode</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Calc. Price Buffer - Field Price Calculation Method - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2439438250 - Field 730569223 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Price Type</source>
+          <target state="translated">Pristype</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Calc. Price Buffer - Field Price Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2439438250 - Field 806193894 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty. per Unit of Measure</source>
+          <target state="translated">Antal pr. enhed</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Calc. Price Buffer - Field Qty. per Unit of Measure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2439438250 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <target state="translated">Antal</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Calc. Price Buffer - Field Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2439438250 - Field 4032031579 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recalculate Invoice Disc.</source>
+          <target state="translated">Genberegn fakturarabat</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Calc. Price Buffer - Field Recalculate Invoice Disc. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2439438250 - Field 2443841526 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit Of Measure Code</source>
+          <target state="translated">Enhedskode</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Calc. Price Buffer - Field Unit Of Measure Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2439438250 - Field 2937233469 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit Price</source>
+          <target state="translated">Enhedspris</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Calc. Price Buffer - Field Unit Price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2439438250 - Field 3450651614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant Code</source>
+          <target state="translated">Variantkode</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Calc. Price Buffer - Field Variant Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2439438250 - Field 3618073952 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work Type Code</source>
+          <target state="translated">Arb.typekode</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Calc. Price Buffer - Field Work Type Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3801530374 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Price Service</source>
+          <target state="translated">Debitor pris service</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Customer Price Service - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3801530374 - Field 342473925 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cloud Storage Folder ID</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Customer Price Service - Field Cloud Storage Folder ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3801530374 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <target state="translated">Debitornr.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Customer Price Service - Field Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3801530374 - Field 2431997779 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Reference ID</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Customer Price Service - Field Document Reference ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3801530374 - Field 36190024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export</source>
+          <target state="translated">Udlæs</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Customer Price Service - Field Export - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3801530374 - Field 3624164725 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Interval</source>
+          <target state="translated">Udlæsningsinterval</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Customer Price Service - Field Export Interval - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3801530374 - Field 366920044 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Google Drive File ID</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Customer Price Service - Field GD FileID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3801530374 - Field 2004032321 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Latest Export</source>
+          <target state="translated">Seneste udlæsning</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Customer Price Service - Field Latest Export - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3801530374 - Field 716598929 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Skip Web Description</source>
+          <target state="translated">Undlad Web Beskrivelse</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Customer Price Service - Field Skip Web Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3482982395 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NetCom OneDrive Setup</source>
+          <target state="translated">NetCom OneDrive Opsætning</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom OneDrive Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3482982395 - Field 2348139347 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Authentication User</source>
+          <target state="translated">Godkendelse bruger</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom OneDrive Setup - Field Authentication User - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3482982395 - Field 3649055472 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Azure App Client ID</source>
+          <target state="translated">Azure App-klient-ID</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom OneDrive Setup - Field Azure App Client ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3482982395 - Field 2307434017 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Azure App Client Secret</source>
+          <target state="translated">Azure App Klient nøgle</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom OneDrive Setup - Field Azure App Client Secret - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3482982395 - Field 3097589588 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Azure Tenant ID</source>
+          <target state="translated">Azure Tenant-ID</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom OneDrive Setup - Field Azure Tenant ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3482982395 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <target state="translated">Primærnøgle</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom OneDrive Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report Buffer Table</source>
+          <target state="translated">Report Buffer Table</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 3479254224 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code 01</source>
+          <target state="translated">Code 01</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Code 01 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 459680162 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code 03</source>
+          <target state="translated">Code 03</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Code 03 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 1097376779 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code 04</source>
+          <target state="translated">Code 04</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Code 04 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 1735073396 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code 05</source>
+          <target state="translated">Code 05</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Code 05 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 1095853743 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date 01</source>
+          <target state="translated">Date 01</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Date 01 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 3008943594 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date 02</source>
+          <target state="translated">Date 02</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Date 02 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 2371246977 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date 03</source>
+          <target state="translated">Date 03</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Date 03 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 4284336828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date 04</source>
+          <target state="translated">Date 04</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Date 04 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 3646640211 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date 05</source>
+          <target state="translated">Date 05</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Date 05 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 3259792044 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DateTime 01</source>
+          <target state="translated">DateTime 01</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field DateTime 01 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 3897488661 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DateTime 02</source>
+          <target state="translated">DateTime 02</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field DateTime 02 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 240217982 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DateTime 03</source>
+          <target state="translated">DateTime 03</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field DateTime 03 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 1914003295 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 06</source>
+          <target state="translated">Decimal 06</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 06 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 2551699912 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 07</source>
+          <target state="translated">Decimal 07</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 07 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 2251821341 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 08</source>
+          <target state="translated">Decimal 08</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 08 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 2889517958 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 09</source>
+          <target state="translated">Decimal 09</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 09 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 632414886 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 10</source>
+          <target state="translated">Decimal 10</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 10 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 4289685565 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 11</source>
+          <target state="translated">Decimal 11</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 11 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 3651988948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 12</source>
+          <target state="translated">Decimal 12</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 12 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 3014292331 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 13</source>
+          <target state="translated">Decimal 13</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 13 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 2376595714 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 14</source>
+          <target state="translated">Decimal 14</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 14 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 1738899097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 15</source>
+          <target state="translated">Decimal 15</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 15 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 1101202480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 16</source>
+          <target state="translated">Decimal 16</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 16 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 463505863 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 17</source>
+          <target state="translated">Decimal 17</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 17 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 4120776542 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 18</source>
+          <target state="translated">Decimal 18</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 18 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 3483079925 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 19</source>
+          <target state="translated">Decimal 19</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 19 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 1981484243 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 20</source>
+          <target state="translated">Decimal 20</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 20 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 2619180860 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 21</source>
+          <target state="translated">Decimal 21</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 21 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 3256877477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 22</source>
+          <target state="translated">Decimal 22</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 22 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 3894574094 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 23</source>
+          <target state="translated">Decimal 23</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 23 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 3725665071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 24</source>
+          <target state="translated">Decimal 24</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 24 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 68394392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 25</source>
+          <target state="translated">Decimal 25</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 25 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 706091009 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 26</source>
+          <target state="translated">Decimal 26</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 26 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 1343787626 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 27</source>
+          <target state="translated">Decimal 27</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 27 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 2788089883 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 28</source>
+          <target state="translated">Decimal 28</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 28 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 3425786500 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 29</source>
+          <target state="translated">Decimal 29</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 29 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 1168683428 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 30</source>
+          <target state="translated">Decimal 30</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 30 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 530986811 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 31</source>
+          <target state="translated">Decimal 31</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 31 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 2444076662 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 32</source>
+          <target state="translated">Decimal 32</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 32 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 1806380045 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 33</source>
+          <target state="translated">Decimal 33</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 33 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 2912864256 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 34</source>
+          <target state="translated">Decimal 34</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 34 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 2275167639 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 35</source>
+          <target state="translated">Decimal 35</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 35 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 4188257490 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 36</source>
+          <target state="translated">Decimal 36</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 36 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 3550560873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 37</source>
+          <target state="translated">Decimal 37</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 37 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 362077788 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 38</source>
+          <target state="translated">Decimal 38</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 38 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 4019348467 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 39</source>
+          <target state="translated">Decimal 39</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 39 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 2496964433 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 40</source>
+          <target state="translated">Decimal 40</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 40 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 3134661050 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 41</source>
+          <target state="translated">Decimal 41</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 41 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 1221571199 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 42</source>
+          <target state="translated">Decimal 42</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 42 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 1859267816 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 43</source>
+          <target state="translated">Decimal 43</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 43 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 752783605 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 44</source>
+          <target state="translated">Decimal 44</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 44 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 1390480222 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 45</source>
+          <target state="translated">Decimal 45</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 45 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 3772357667 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 46</source>
+          <target state="translated">Decimal 46</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 46 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 115086988 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 47</source>
+          <target state="translated">Decimal 47</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 47 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 3303570073 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 48</source>
+          <target state="translated">Decimal 48</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 48 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 3941266690 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 49</source>
+          <target state="translated">Decimal 49</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 49 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 1704951970 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 50</source>
+          <target state="translated">Decimal 50</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 50 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 1067255353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 51</source>
+          <target state="translated">Decimal 51</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 51 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 429558736 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 52</source>
+          <target state="translated">Decimal 52</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 52 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 4086829415 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 53</source>
+          <target state="translated">Decimal 53</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 53 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 4255738438 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 54</source>
+          <target state="translated">Decimal 54</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 54 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 3618041821 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 55</source>
+          <target state="translated">Decimal 55</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 55 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 2980345204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 56</source>
+          <target state="translated">Decimal 56</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 56 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 2342648587 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 57</source>
+          <target state="translated">Decimal 57</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 57 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 898346330 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 58</source>
+          <target state="translated">Decimal 58</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 58 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 260649713 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 59</source>
+          <target state="translated">Decimal 59</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Decimal 59 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 3673541685 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Electronic Net Weight</source>
+          <target state="translated">Elektronik Nettovægt</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Electronic Net. Weight - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target state="translated">Løbenr.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 2072357113 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Integer 01</source>
+          <target state="translated">Heltal</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Integer 01 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 1434660496 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Integer 02</source>
+          <target state="translated">Heltal</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Integer 02 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 2242174914 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount sold</source>
+          <target state="translated">Mængde solgt</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field NetCom Amount sold - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 917017138 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <target state="translated">Bilagsnr.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field NetCom Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 3079201272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gross Weight</source>
+          <target state="translated">Bruttovægt</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field NetCom Gross Weight - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 2047281135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Description</source>
+          <target state="translated">Varebeskrivelse</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field NetCom Item Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 4002885480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NetCom Item No.</source>
+          <target state="translated">NetCom Varenr.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field NetCom Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 2925989339 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net Weight</source>
+          <target state="translated">Nettovægt</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field NetCom Net Weight - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 450224154 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Weight</source>
+          <target state="translated">Vægt</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field NetCom Weight - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 203700333 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report Id</source>
+          <target state="translated">Rapport-id</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Report Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 969704152 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Text 01</source>
+          <target state="translated">Tekst</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Text 01 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 1607400769 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Text 02</source>
+          <target state="translated">Anlæg - bogført værdi 02</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Text 02 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 2245097386 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Text 03</source>
+          <target state="translated">Tekstnr.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field Text 03 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3070094802 - Field 3776794752 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Id</source>
+          <target state="translated">Bruger-id</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field User Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2918984460 - Method 705885496 - NamedType 872318431" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting date is %1.\Do you want to continue?</source>
+          <target state="translated">Bogføringsdato er %1.\Ønsker du at fortsætte?</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Posting Date</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Event Subscriber - Method PurchPostOnBeforePostSalesDoc - NamedType Qst001Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3538161582 - Method 4102765241 - NamedType 463537070" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The call to the webservice failed!\%1</source>
+          <target state="translated">Kaldet til webservicen fejlede!%1</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Error</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom One Drive Graph API - Method CallRESTWebservice - NamedType Textl001Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3538161582 - Method 4102765241 - NamedType 1404577739" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The webservice returned an error message: Status Code: %1. Message: %2.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%1 = HttpResponseMessage.HttpStatusCode, %2 = HttpResponseMessage.ReasonPhrase</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom One Drive Graph API - Method CallRESTWebservice - NamedType Textl002Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3538161582 - Method 3218354727 - NamedType 802048774" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The call to the webservice failed!</source>
+          <target state="translated">Kaldet til webservicen fejlede!</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom One Drive Graph API - Method GetToken - NamedType Label001_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3538161582 - Method 3218354727 - NamedType 1733071115" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The webservice returned an error message: Status Code: %1. Message: %2.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%1 = HttpResponseMessage.HttpStatusCode, %2 = HttpResponseMessage.ReasonPhrase</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom One Drive Graph API - Method GetToken - NamedType Label002_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3210249628 - Method 1475023762 - NamedType 3542948482" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item %1 (%2) is not scanned!</source>
+          <target state="translated">Vare %1 (%2) er ikke scannet!</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Item No., %2 = Description</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Scan Functions - Method CheckScannedProducts - NamedType Err001Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3210249628 - Method 1301610229 - NamedType 2430543878" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scan not registered!</source>
+          <target state="translated">Scanning ikke registreret!</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Scan Functions - Method CreateScan - NamedType Msg001Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3210249628 - Method 2028508638 - NamedType 2430543878" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Serial No. %1 is not disponible in BC!\\Scan interrupted!</source>
+          <target state="translated">Serienr. %1 er ikke disponibel i BC!\\Scan afbrudt!</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Serial No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Scan Functions - Method InsertUpdateReservationEntry - NamedType Msg001Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3210249628 - Method 2028508638 - NamedType 3730051811" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Serial No. %1 is already scanned on Purchase Order %2 in BC!\\Scan interrupted!</source>
+          <target state="translated">Serienr. %1 er allerede scannet på købsordre %2 i BC\\Scan afbrudt!</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Serial No., %2 = Purchase Order No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Scan Functions - Method InsertUpdateReservationEntry - NamedType Msg002Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3210249628 - Method 1291841758 - NamedType 2430543878" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item not found!</source>
+          <target state="translated">Varen blev ikke fundet!</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Scan Functions - Method ScanItem - NamedType Msg001Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3210249628 - Method 1291841758 - NamedType 3730051811" size-unit="char" translate="yes" xml:space="preserve">
+          <source>STOP! - You scanned wrong Item!</source>
+          <target state="translated">STOP! - Du har scannet den forkerte vare!</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Scan Functions - Method ScanItem - NamedType Msg002Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3210249628 - Method 1910360490 - NamedType 3542948482" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have to scan Item No. before scanning Serial No.!</source>
+          <target state="translated">Du skal scanne varenr. før du scanner serienr.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Scan Functions - Method ScanSerialNo - NamedType Err001Lbl</note>
+        </trans-unit>
+        <trans-unit id="Page 2977601168 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CalcTempPrice</source>
+          <target state="translated">CalcTempPrice</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CalcTempPrice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2023422840 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Packaging tax overview</source>
+          <target state="translated">Emballageafgift overblik</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Analysis - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2023422840 - Control 3479254224 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group</source>
+          <target state="translated">Gruppe</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Analysis - Control Code 01 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2023422840 - Control 3479254224 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group</source>
+          <target state="translated">Gruppe</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Analysis - Control Code 01 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2023422840 - Control 3673541685 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Electronic Net Weight</source>
+          <target state="translated">Elektronik Nettovægt</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Analysis - Control Electronic Net. Weight - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2023422840 - Control 2242174914 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount sold</source>
+          <target state="translated">Mængde solgt</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Analysis - Control NetCom Amount sold - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2023422840 - Control 3079201272 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gross Weight</source>
+          <target state="translated">Bruttovægt</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Analysis - Control NetCom Gross Weight - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2023422840 - Control 2047281135 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Description</source>
+          <target state="translated">Varebeskrivelse</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Analysis - Control NetCom Item Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2023422840 - Control 4002885480 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <target state="translated">Varenr.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Analysis - Control NetCom Item No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2023422840 - Control 4002885480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <target state="translated">Varenr.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Analysis - Control NetCom Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2023422840 - Control 2925989339 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net Weight</source>
+          <target state="translated">Nettovægt</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Analysis - Control NetCom Net Weight - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2023422840 - Control 450224154 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Weight</source>
+          <target state="translated">Vægt</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Analysis - Control NetCom Weight - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2023422840 - Action 642782499 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update</source>
+          <target state="translated">Opdater</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Analysis - Action Update - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2023422840 - Action 642782499 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update</source>
+          <target state="translated">Opdater</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Analysis - Action Update - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3801530374 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Price List Export</source>
+          <target state="translated">Debitorprisliste udlæsning</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Customer Price Service - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3801530374 - Control 4190130733 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <target state="translated">Debitornr.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Customer Price Service - Control Customer No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3801530374 - Control 36190024 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export</source>
+          <target state="translated">Udlæs</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Customer Price Service - Control Export - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3801530374 - Control 3624164725 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Interval</source>
+          <target state="translated">Udlæsningsinterval</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Customer Price Service - Control Export Interval - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3801530374 - Control 2004032321 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Latest Export</source>
+          <target state="translated">Seneste udlæsning</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Customer Price Service - Control Latest Export - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3801530374 - Control 716598929 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Skip Web Description</source>
+          <target state="translated">Undlad Web Beskrivelse</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Customer Price Service - Control Skip Web Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3801530374 - Action 693890786 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export All To OneDrive</source>
+          <target state="translated">Udlæs alle til OneDrive</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Customer Price Service - Action ExportAllToOneDrive - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3801530374 - Action 693890786 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export All To OneDrive</source>
+          <target state="translated">Udlæs alle til OneDrive</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Customer Price Service - Action ExportAllToOneDrive - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3801530374 - Action 713643473 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export To OneDrive</source>
+          <target state="translated">Udlæs til OneDrive</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Customer Price Service - Action ExportToOneDrive - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3801530374 - Action 713643473 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export To OneDrive</source>
+          <target state="translated">Udlæs til OneDrive</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Customer Price Service - Action ExportToOneDrive - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3801530374 - Action 1986184537 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generate Price Lists</source>
+          <target state="translated">Generer prislister</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Customer Price Service - Action GeneratePriceLists - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3801530374 - Action 1986184537 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generate Price Lists</source>
+          <target state="translated">Generer prislister</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Customer Price Service - Action GeneratePriceLists - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2894558432 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OneDrive Activites</source>
+          <target state="translated">OneDrive Aktiviteter</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Activites - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2894558432 - Control 582798060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer - Price Lists</source>
+          <target state="translated">Debitor - Prislister</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Activites - Control OneDrive - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2894558432 - Control 3795312709 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Price Service</source>
+          <target state="translated">Debitor pris service</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Activites - Control NetCom Price Lists - Export - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2894558432 - Action 1388141073 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Price List Export</source>
+          <target state="translated">Debitorprisliste udlæsning</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Activites - Action CustomerPriceListExport - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2894558432 - Action 1388141073 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Price List Export</source>
+          <target state="translated">Debitorprisliste udlæsning</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Activites - Action CustomerPriceListExport - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2894558432 - Action 693890786 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export All To OneDrive</source>
+          <target state="translated">Udlæs alle til OneDrive</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Activites - Action ExportAllToOneDrive - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2894558432 - Action 693890786 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export All To OneDrive</source>
+          <target state="translated">Udlæs alle til OneDrive</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Activites - Action ExportAllToOneDrive - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2894558432 - Action 803808795 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NetCom OneDrive Setup</source>
+          <target state="translated">NetCom OneDrive Opsætning</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Activites - Action NetComOneDriveSetup - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2894558432 - Action 803808795 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NetCom OneDrive Setup</source>
+          <target state="translated">NetCom OneDrive Opsætning</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Activites - Action NetComOneDriveSetup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3482982395 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NetCom OneDrive Setup</source>
+          <target state="translated">NetCom OneDrive Opsætning</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3482982395 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target state="translated">Generelt</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Setup - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3482982395 - Control 2348139347 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Authentication User</source>
+          <target state="translated">Godkendelse bruger</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Setup - Control Authentication User - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3482982395 - Control 3649055472 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Azure App Client ID</source>
+          <target state="translated">Azure App-klient-ID</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Setup - Control Azure App Client ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3482982395 - Control 2307434017 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Azure App Client Secret</source>
+          <target state="translated">Azure App Klient nøgle</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Setup - Control Azure App Client Secret - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3482982395 - Control 3097589588 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Azure Tenant ID</source>
+          <target state="translated">Azure Tenant-ID</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Setup - Control Azure Tenant ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 242327393 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Order</source>
+          <target state="translated">Salgsordre</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Sales order Scan - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1140161862 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scan Lines</source>
+          <target state="translated">Scan linjer</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Sales Order Scan Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1140161862 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the item.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Sales Order Scan Lines - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1140161862 - Control 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Beskrivelse</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Sales Order Scan Lines - Control Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1140161862 - Control 2853857640 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the quantity of the item that has been scanned by NetCom.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Sales Order Scan Lines - Control NetCom Scanned Qty. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1140161862 - Control 2853857640 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NetCom Scanned Qty.</source>
+          <target state="translated">Antal scannet</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Sales Order Scan Lines - Control NetCom Scanned Qty. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1140161862 - Control 949215307 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the item number.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Sales Order Scan Lines - Control No - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1140161862 - Control 949215307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target state="translated">Nummer</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Sales Order Scan Lines - Control No - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1140161862 - Control 1128541325 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the quantity of the item that is to be shipped.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Sales Order Scan Lines - Control Qty. to Ship - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1140161862 - Control 1128541325 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty. to Ship</source>
+          <target state="translated">Lever (antal)</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Sales Order Scan Lines - Control Qty. to Ship - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1140161862 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the quantity of the item.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Sales Order Scan Lines - Control Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1140161862 - Control 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <target state="translated">Antal</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Sales Order Scan Lines - Control Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1140161862 - Control 1878130204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of the sales line.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Sales Order Scan Lines - Control Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1140161862 - Control 1878130204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <target state="translated">Type</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Sales Order Scan Lines - Control Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1140161862 - Control 2099079889 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scan</source>
+          <target state="translated">Scan</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Sales Order Scan Lines - Control Scan - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1140161862 - Control 2768489971 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scan the Item No. or EAN code of the item.</source>
+          <target state="translated">Scan varenr. eller EAN kode for varen.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Sales Order Scan Lines - Control ScannedNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1140161862 - Control 2768489971 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scan Item</source>
+          <target state="translated">Scan vare</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Sales Order Scan Lines - Control ScannedNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1140161862 - Control 2812362531 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scan the serial number of the item.</source>
+          <target state="translated">Scan serienr. for varen.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Sales Order Scan Lines - Control ScannedSerialNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1140161862 - Control 2812362531 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scan Serial No</source>
+          <target state="translated">Scan serienr.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Sales Order Scan Lines - Control ScannedSerialNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1140161862 - Control 2812362531 - Method 2126772001 - NamedType 2430543878" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have to scan Item No. before scan serial no.!</source>
+          <target state="translated">Du skal scanne varenr. før du scanner serienr.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Sales Order Scan Lines - Control ScannedSerialNo - Method OnValidate - NamedType Msg001Lbl</note>
+        </trans-unit>
+        <trans-unit id="Page 1140161862 - Control 2812362531 - Method 2126772001 - NamedType 3730051811" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Tracking Code is not set for item no. %1!</source>
+          <target state="translated">Varesporingskoden er ikke angivet for varenr. %1!</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Item No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Sales Order Scan Lines - Control ScannedSerialNo - Method OnValidate - NamedType Msg002Lbl</note>
+        </trans-unit>
+        <trans-unit id="Page 1140161862 - Action 3557000673 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit serial, lot and package numbers for the selected item. This action is available only for lines that contain an item.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Sales Order Scan Lines - Action ItemTrackingLines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1140161862 - Action 3557000673 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item &amp;Tracking Lines</source>
+          <target state="translated">Serienumre</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Sales Order Scan Lines - Action ItemTrackingLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1140161862 - Action 1280282375 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update the scanned quantity of the selected line.</source>
+          <target state="translated">Opdater den scannede mængde på den valgte linje.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Sales Order Scan Lines - Action UpdateScannedQty - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1140161862 - Action 1280282375 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update Scanned Qty.</source>
+          <target state="translated">Opdater scannet antal</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Sales Order Scan Lines - Action UpdateScannedQty - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2651351685 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update Quantity</source>
+          <target state="translated">Opdater Antal</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Scan Update Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2651351685 - Control 1684749464 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scanned quantity of the item.</source>
+          <target state="translated">Scannet antal af varen.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Scan Update Quantity - Control ScannedQty - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2651351685 - Control 1684749464 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scanned Qty.</source>
+          <target state="translated">Antal scannet</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Scan Update Quantity - Control ScannedQty - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2023422840 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Analysis</source>
+          <target state="translated">Analyse</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Analysis - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2023422840 - Method 1544076788 - NamedType 939506724" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This page is last updated on %1</source>
+          <target state="translated">Siden er senest opdateret d. %1</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Update date time</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Analysis - Method OnPreReport - NamedType TextLabel01Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2023422840 - Method 1544076788 - NamedType 3503568965" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date filter: %1</source>
+          <target state="translated">Datofilter: %1</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Date label</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Analysis - Method OnPreReport - NamedType TextLabel02Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2023422840 - Method 1347846559 - NamedType 2365671010" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Items Total</source>
+          <target state="translated">Varer Total</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Analysis - Method ProcessItems - NamedType ItemsTotalLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2023422840 - Method 1347846559 - NamedType 4027850459" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Items</source>
+          <target state="translated">Varer</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Analysis - Method ProcessItems - NamedType ItemsHeadlinesLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2023422840 - RequestPage 2516438534 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Teaching tip title</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Analysis - RequestPage RequestOptionsPage - Property AboutTitle</note>
+        </trans-unit>
+        <trans-unit id="Report 2023422840 - RequestPage 2516438534 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Teaching tip content</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Analysis - RequestPage RequestOptionsPage - Property AboutText</note>
+        </trans-unit>
+        <trans-unit id="Report 2023422840 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target state="translated">Indstillinger</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Analysis - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2023422840 - Control 1764692851 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>From Date</source>
+          <target state="translated">Fra dato</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Analysis - Control FromDateOption - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2023422840 - Control 1764692851 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>From Date</source>
+          <target state="translated">Fra dato</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Analysis - Control FromDateOption - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2023422840 - Control 1170779832 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To Date</source>
+          <target state="translated">Til dato</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Analysis - Control ToDateOption - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2023422840 - Control 1170779832 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To Date</source>
+          <target state="translated">Til dato</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Analysis - Control ToDateOption - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Price List</source>
+          <target state="translated">Debitor Prisliste</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - NamedType 2901037629" size-unit="char" translate="yes" xml:space="preserve">
+          <source>As of %1</source>
+          <target state="translated">Fra %1</target>
+          <note from="Developer" annotates="general" priority="2">%1 - a date</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - NamedType AsOfTok</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - NamedType 2438826717" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account No.</source>
+          <target state="translated">Kontonr.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - NamedType CompanyInfoBankAccNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - NamedType 1275674192" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank</source>
+          <target state="translated">Bank</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - NamedType CompanyInfoBankNameCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - NamedType 2150512197" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fax No.</source>
+          <target state="translated">Telefax</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - NamedType CompanyInfoFaxNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - NamedType 1454106313" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Giro No.</source>
+          <target state="translated">Gironr.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - NamedType CompanyInfoGiroNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - NamedType 2826867220" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Phone No.</source>
+          <target state="translated">Telefonnr.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - NamedType CompanyInfoPhoneNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - NamedType 322581705" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Reg. No.</source>
+          <target state="translated">SE/CVR-nr.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - NamedType CompanyInfoVATRegNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - NamedType 3224550582" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Excl.</source>
+          <target state="translated">Ekskl.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - NamedType ExclTok</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - NamedType 3126769036" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Incl.</source>
+          <target state="translated">Inkl.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - NamedType InclTok</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - NamedType 3924074436" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Beskrivelse</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - NamedType ItemDescCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - NamedType 581024604" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <target state="translated">Varenr.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - NamedType ItemNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - NamedType 3622563723" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Minimum Quantity</source>
+          <target state="translated">Min. antal</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - NamedType MinimumQuantityCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - NamedType 1487444463" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must specify an Assign-to, if the Assign-to Type is different from All Customers.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - NamedType MissSourceNoErr</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - NamedType 2971983597" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page %1</source>
+          <target state="translated">Side %1</target>
+          <note from="Developer" annotates="general" priority="2">%1 - a page number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - NamedType PageTok</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - NamedType 372370581" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Price List</source>
+          <target state="translated">Prisliste</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - NamedType PriceListCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - NamedType 1531874605" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of Measure</source>
+          <target state="translated">Enhed</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - NamedType UnitOfMeasureCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - NamedType 859297142" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT</source>
+          <target state="translated">Moms</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - NamedType VATTextCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target state="translated">Indstillinger</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - Control 1918011168 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code for the currency that amounts are shown in.</source>
+          <target state="translated">Angiver koden for den valuta, som beløbene vises i.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - Control Currency.Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - Control 1918011168 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <target state="translated">Valutakode</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - Control Currency.Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - Control 3192175264 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the period for which the prices apply, such as 10/01/20...12/31/20.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - Control Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - Control 3192175264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <target state="translated">Dato</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - Control Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - Control 960685460 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the price calculation handler that is defined for the calculation of sales prices for the selected method.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - Control Handler - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - Control 960685460 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Price Calculation Handler</source>
+          <target state="translated">Håndtering af prisberegning</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - Control Handler - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - Control 4132733409 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the price calculation method.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - Control Method - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - Control 4132733409 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Price Calculation Method</source>
+          <target state="translated">Prisberegningsmetode</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - Control Method - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - Control 514434055 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the entity to which the prices are assigned. The options depend on the selection in the Assign-to Type field. If you choose an entity, the price list will be used only for that entity.</source>
+          <target state="translated">Angiver den enhed, som priserne er tildelt. Indstillingerne afhænger af valget i feltet Tildel type. Hvis du vælger et objekt, bruges prislisten kun til det pågældende objekt.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - Control SourceNoCtrl - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1328922423 - Control 514434055 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assign-to</source>
+          <target state="translated">Tildel til</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Customer Price List - Control SourceNoCtrl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1434100859 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NetCom Set Item Values (One Time)</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetCom Set Item Values - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1705767802 - Control 1341674576 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Webshop</source>
+          <target state="translated">Webshop</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NetCom Customer Card - Control NetCom NSW - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1705767802 - Control 2903329215 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Specifies if field is marked the, Customer is able to pay with Invoice at Webshop</source>
+          <target state="translated">Angiver hvis feltet er markeret, så har kunden mulighed for at vælge betalingsmetode "Faktura" på Webshoppen.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NetCom Customer Card - Control NetCom Invoice Payment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3638305788 - Control 2903329215 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Specifies if field is marked the, Customer is able to pay with Invoice at Webshop</source>
+          <target state="translated">Angiver hvis feltet er markeret, så har kunden mulighed for at vælge betalingsmetode "Faktura" på Webshoppen.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NetCom Customer List - Control NetCom Invoice Payment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1208987406 - Action 2307914533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3940806096">
+          <source>Import Items</source>
+          <target state="translated">Indlæs varer</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NetCom Item Journal - Action ImportItems - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1208987406 - Action 2307914533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3940806096">
+          <source>Import Items</source>
+          <target state="translated">Indlæs varer</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NetCom Item Journal - Action ImportItems - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1178970668 - Action 4260614985 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+          <source>Scan the EAN code or serial number of the item.</source>
+          <target state="translated">Scan EAN koden eller serienummeret for varen.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NetCom Sales Order - Action NetComSalesOrderScan - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1178970668 - Action 4260614985 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+          <source>Scan</source>
+          <target state="translated">Scan</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NetCom Sales Order - Action NetComSalesOrderScan - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2289455138 - Control 1149223810 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4145206282">
+          <source>NetCom</source>
+          <target state="translated">NetCom</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NetCom Sales Receivables Setup - Control NetCom - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1383703230 - Field 2903329215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Invoice Payment</source>
+          <target state="translated">Faktura betaling</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Customer - Field NetCom Invoice Payment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3341965925 - Field 438088856 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies whether the item is electronic.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Field NetCom Electronic - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3341965925 - Field 438088856 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Electronic</source>
+          <target state="translated">Elektronik</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Field NetCom Electronic - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3341965925 - Field 792649829 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the environmental tax for the item.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Field NetCom Environmental Tax - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3341965925 - Field 792649829 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Environmental Tax</source>
+          <target state="translated">Miljøafgift</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Field NetCom Environmental Tax - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3341965925 - Field 2281047339 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Packaging.</source>
+          <target state="translated">Emballage</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Field NetCom Packaging - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3341965925 - Field 2281047339 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Packaging</source>
+          <target state="translated">Emballage</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Field NetCom Packaging - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4168907383 - Field 3795312709 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 388441093">
+          <source>Price Lists - Ready to Export</source>
+          <target state="translated">Klar til udlæsning</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Sales Cue - Field NetCom Price Lists - Export - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1168894428 - Field 2853857640 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
+          <source>Scanned Qty.</source>
+          <target state="translated">Antal scannet</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Sales Line - Field NetCom Scanned Qty. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2289455138 - Field 2116397945 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Specifies the G/L account for environmental fees.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Sales Receivables Setup - Field NetCom Environmental Fee Acc. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2289455138 - Field 2116397945 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Environmental Fee G/L Account</source>
+          <target state="translated">Miljøtillæg Finanskonto</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Sales Receivables Setup - Field NetCom Environmental Fee Acc. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2289455138 - Field 1030608965 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Specifies the group for environmental fees.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Sales Receivables Setup - Field NetCom Environmental Fee Grp. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2289455138 - Field 1030608965 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Environmental Fee Product Posting Group</source>
+          <target state="translated">Miljøtillæg Produktbogføringsgruppe</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Sales Receivables Setup - Field NetCom Environmental Fee Grp. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3102007422 - EnumValue 3572683965 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Authorize</source>
+          <target state="translated">Godkend</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum NetCom GD Method - EnumValue Authorize - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3102007422 - EnumValue 4193334241 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DeleteFile</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum NetCom GD Method - EnumValue DeleteFile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3102007422 - EnumValue 1417041028 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetFile</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum NetCom GD Method - EnumValue GetFile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3102007422 - EnumValue 3596347261 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetMetadata</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum NetCom GD Method - EnumValue GetMetadata - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3102007422 - EnumValue 2351951476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PatchFile</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum NetCom GD Method - EnumValue PatchFile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3102007422 - EnumValue 1221855277 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PatchMetadata</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum NetCom GD Method - EnumValue PatchMetadata - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3102007422 - EnumValue 1627834178 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PostFile</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum NetCom GD Method - EnumValue PostFile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3102007422 - EnumValue 4275046174 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Undefined</source>
+          <target state="translated">Udefineret</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum NetCom GD Method - EnumValue Undefined - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 259773736 - EnumValue 2347659213 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>0 Hours</source>
+          <target state="translated">0 timer</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum NetCom Time Interval - EnumValue 0 hours - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 259773736 - EnumValue 2428783007 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>1 Day</source>
+          <target state="translated">1 dag</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum NetCom Time Interval - EnumValue 1 Day - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 259773736 - EnumValue 285584439 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>2 Days</source>
+          <target state="translated">2 dage</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum NetCom Time Interval - EnumValue 2 Days - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 259773736 - EnumValue 2093897225 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>4 Hours</source>
+          <target state="translated">4 timer</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum NetCom Time Interval - EnumValue 4 Hours - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 259773736 - EnumValue 4079005751 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>6 Hours</source>
+          <target state="translated">6 timer</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum NetCom Time Interval - EnumValue 6 Hours - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 259773736 - EnumValue 2915297132 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>7 Days</source>
+          <target state="translated">7 dage</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum NetCom Time Interval - EnumValue 7 Days - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 259773736 - EnumValue 1955730645 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>8 Hours</source>
+          <target state="translated">8 timer</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum NetCom Time Interval - EnumValue 8 Hours - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2119203105 - NamedType 1825092033" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 2119203105">
+          <source>Stock</source>
+          <target state="translated">Lagerantal</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension NetCom Pick Instruction - NamedType ItemStockLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2119203105 - NamedType 3657856295" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 2119203105">
+          <source>Ship-to Address</source>
+          <target state="translated">Leveringsadresse</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension NetCom Pick Instruction - NamedType ShipToAddressLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2119203105 - NamedType 1251293528" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 2119203105">
+          <source>Ship-to Name</source>
+          <target state="translated">Leveringsnavn</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension NetCom Pick Instruction - NamedType ShipToNameLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2119203105 - NamedType 3758172763" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 2119203105">
+          <source>Ship-to Post Code / City</source>
+          <target state="translated">Leveringspostnr./by</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension NetCom Pick Instruction - NamedType ShipToPostCodeCityLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3713962664 - NamedType 1863312425" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 3713962664">
+          <source>Country of Origin: </source>
+          <target state="translated">Oprindelsesland: </target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension NetCom Standard Sales Invoice - NamedType CountryOfOriginLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3713962664 - NamedType 4191737576" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 3713962664">
+          <source>Environmental Tax</source>
+          <target state="translated">Miljøtillæg</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension NetCom Standard Sales Invoice - NamedType EnvironmentalFeeLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3713962664 - NamedType 1891712410" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 3713962664">
+          <source>GTIN: </source>
+          <target state="translated">GTIN: </target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension NetCom Standard Sales Invoice - NamedType GTINLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3713962664 - NamedType 2123710612" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 3713962664">
+          <source>Invoice Discount</source>
+          <target state="translated">Fakturarabat</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension NetCom Standard Sales Invoice - NamedType NetComInvDiscountAmtLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3713962664 - NamedType 3520352260" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 3713962664">
+          <source> (LCY)</source>
+          <target state="translated"> (RV)</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension NetCom Standard Sales Invoice - NamedType NetComLCYTxt</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3713962664 - NamedType 153482646" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 3713962664">
+          <source>Subtotal</source>
+          <target state="translated">Subtotal</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension NetCom Standard Sales Invoice - NamedType NetComSubtotalLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3713962664 - NamedType 2260989382" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 3713962664">
+          <source>Reverse charge: As a buyer, you must calculate the sales tax for the item yourself on your VAT return.</source>
+          <target state="translated">Omvendt betalingspligt: Som køber skal du selv beregne salgsmomsen for varen på din momsangivelse</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension NetCom Standard Sales Invoice - NamedType ReversePaymentObligationLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3713962664 - NamedType 3072300684" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 3713962664">
+          <source>Serial Numbers: </source>
+          <target state="translated">Serienumre: </target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension NetCom Standard Sales Invoice - NamedType SerialNosLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3713962664 - NamedType 1378079743" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 3713962664">
+          <source>Tariff No.: </source>
+          <target state="translated">Tarifnr.: </target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension NetCom Standard Sales Invoice - NamedType TariffNoLbl</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

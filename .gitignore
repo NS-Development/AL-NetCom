@@ -1,0 +1,38 @@
+﻿# VS Code-specifikke filer
+.vscode/
+*.code-workspace
+
+# AL-specifikke filer
+.alpackages/
+*.app
+*.g.xlf
+*.flf
+
+# Build- og release-mapper
+Release/
+
+# Node.js afhængigheder (hvis brugt)
+node_modules/
+package-lock.json
+
+# PowerShell-moduler (hvis brugt)
+*.ps1
+
+# Midlertidige og systemfiler
+.settings/
+~$*
+Thumbs.db
+.DS_Store
+*.bak
+*.tmp
+
+# Arkiv- og eksekverbare filer
+*.zip
+*.apk
+*.ipa
+*.swf
+*.air
+
+# JSON-filer (undtagelse for app.json)
+*.json
+!app.json
