@@ -155,15 +155,6 @@ codeunit 50107 "NetCom Inload Service"
                         AppendCsvField(LineBuilder, Item."Country/Region of Origin Code");
                         AppendCsvField(LineBuilder, Format(Item."NetCom UNSPSC"));
                         AppendCsvField(LineBuilder, Format(Item."NetCom Expired replaced by"));
-                        // if Item."NSW Exist as Variant" then begin
-                        //     NetComWebImpProductData2.Reset();
-                        //     NetComWebImpProductData2.SetRange("Webshop ID", NetComWebImpProductData."Webshop ID");
-                        //     NetComWebImpProductData2.SetRange("Webshop Variant ID", 0);
-                        //     if NetComWebImpProductData2.FindFirst() then
-                        //         AppendCsvField(LineBuilder, NetComWebImpProductData2."Website Image Link")
-                        //     else
-                        //         AppendCsvField(LineBuilder, NetComWebImpProductData."Website Image Link")
-                        // end else
                         AppendCsvField(LineBuilder, NetComWebImpProductData."Website Image Link");
                         AppendCsvField(LineBuilder, NetComWebImpProductData."Website Link");
                         AppendCsvField(LineBuilder, Item."NetCom User Manual (URL)");
@@ -238,14 +229,65 @@ codeunit 50107 "NetCom Inload Service"
     local procedure GetExpectedDeliveryText(var Item: Record Item): Text
     var
         ItemInventory: Decimal;
+        BuildableAssemblyQty: Decimal;
     begin
-        Item.CalcFields(Inventory);
+        Item.CalcFields(Inventory, "Assembly BOM");
         ItemInventory := Item.Inventory;
+
+        if Item."Assembly BOM" then begin
+            BuildableAssemblyQty := GetBuildableAssemblyQuantity(Item."No.");
+            if (ItemInventory + BuildableAssemblyQty) > 0 then
+                exit('1D');
+
+            exit(Format(Item."Lead Time Calculation"));
+        end;
 
         if ItemInventory > 0 then
             exit('1D');
 
         exit(Format(Item."Lead Time Calculation"));
+    end;
+
+    local procedure GetBuildableAssemblyQuantity(ParentItemNo: Code[20]): Decimal
+    var
+        BOMComponent: Record "BOM Component";
+        ComponentItem: Record Item;
+        ComponentInventory: Decimal;
+        ComponentBuildableQty: Decimal;
+        MinBuildableQty: Decimal;
+        HasInventoryComponent: Boolean;
+    begin
+        MinBuildableQty := 0;
+        HasInventoryComponent := false;
+
+        BOMComponent.Reset();
+        BOMComponent.SetRange("Parent Item No.", ParentItemNo);
+        BOMComponent.SetRange(Type, BOMComponent.Type::Item);
+        BOMComponent.SetFilter("Quantity per", '>%1', 0);
+
+        if BOMComponent.FindSet() then
+            repeat
+                if ComponentItem.Get(BOMComponent."No.") then begin
+                    ComponentItem.CalcFields(Inventory);
+                    ComponentInventory := ComponentItem.Inventory;
+                    ComponentBuildableQty := Round(ComponentInventory / BOMComponent."Quantity per", 1, '<');
+
+                    if not HasInventoryComponent then begin
+                        MinBuildableQty := ComponentBuildableQty;
+                        HasInventoryComponent := true;
+                    end else
+                        if ComponentBuildableQty < MinBuildableQty then
+                            MinBuildableQty := ComponentBuildableQty;
+                end;
+            until BOMComponent.Next() = 0;
+
+        if not HasInventoryComponent then
+            exit(0);
+
+        if MinBuildableQty < 0 then
+            exit(0);
+
+        exit(MinBuildableQty);
     end;
 
     local procedure GetMinOrderQuantity(Item: Record Item): Decimal
