@@ -1,7 +1,7 @@
-table 50101 "NetCom Customer Price Service"
+table 50104 "NetCom Inload Service"
 {
     DataClassification = ToBeClassified;
-    Caption = 'Customer Price Service';
+    Caption = 'Inload Service';
 
     fields
     {
@@ -10,11 +10,6 @@ table 50101 "NetCom Customer Price Service"
             DataClassification = ToBeClassified;
             Caption = 'Customer No.';
             TableRelation = Customer."No.";
-        }
-        field(2; "Cloud Storage Folder ID"; Code[100])
-        {
-            DataClassification = ToBeClassified;
-            Caption = 'Cloud Storage Folder ID';
         }
         field(3; "Customer Name"; Text[100])
         {
@@ -39,20 +34,10 @@ table 50101 "NetCom Customer Price Service"
             DataClassification = ToBeClassified;
             Caption = 'Latest Export';
         }
-        field(20; "GD FileID"; Text[2048])
-        {
-            DataClassification = ToBeClassified;
-            Caption = 'Google Drive File ID';
-        }
         field(21; "Document Reference ID"; Media)
         {
             DataClassification = ToBeClassified;
             Caption = 'Document Reference ID';
-        }
-        field(30; "Skip Web Description"; Boolean)
-        {
-            DataClassification = ToBeClassified;
-            Caption = 'Skip Web Description';
         }
     }
 

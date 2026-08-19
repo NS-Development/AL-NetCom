@@ -1,10 +1,10 @@
-page 50101 "NetCom Customer Price Service"
+page 50108 "NetCom Inload Service"
 {
     PageType = List;
     ApplicationArea = All;
     UsageCategory = Lists;
-    SourceTable = "NetCom Customer Price Service";
-    Caption = 'Customer Price List Export';
+    SourceTable = "NetCom Inload Service";
+    Caption = 'Inload Export';
 
     layout
     {
@@ -36,11 +36,6 @@ page 50101 "NetCom Customer Price Service"
                     ApplicationArea = All;
                     ToolTip = 'Export';
                 }
-                field("Skip Web Description"; Rec."Skip Web Description")
-                {
-                    ApplicationArea = All;
-                    ToolTip = 'Skip Web Description';
-                }
                 field("Latest Export"; Rec."Latest Export")
                 {
                     ApplicationArea = All;
@@ -53,53 +48,50 @@ page 50101 "NetCom Customer Price Service"
     {
         area(Processing)
         {
-            action(GeneratePriceLists)
+            action(GenerateFiles)
             {
                 ApplicationArea = All;
-                Caption = 'Generate Price Lists';
-                ToolTip = 'Generate Price Lists';
+                Caption = 'Generate Files';
+                ToolTip = 'Generate Files';
                 Image = Export;
 
                 trigger OnAction()
                 begin
-                    Codeunit.Run(Codeunit::"NetCom Customer Price Service");
+                    Codeunit.Run(Codeunit::"NetCom Inload Service");
                 end;
             }
-            // action(ExportToOneDrive)
-            // {
-            //     ApplicationArea = All;
-            //     Caption = 'Export To OneDrive';
-            //     ToolTip = 'Export To OneDrive';
-            //     Image = LaunchWeb;
+            action(ExportToFile)
+            {
+                ApplicationArea = All;
+                Caption = 'Export To File';
+                ToolTip = 'Export To File';
+                Image = Export;
 
-            //     trigger OnAction()
-            //     var
-            //         NetComCustomerPriceService: Codeunit "NetCom Customer Price Service";
-            //     begin
-            //         NetComCustomerPriceService.ExportToOneDrive(Rec."Customer No.");
-            //     end;
-            // }
-            // action(ExportAllToOneDrive)
-            // {
-            //     ApplicationArea = All;
-            //     Caption = 'Export All To OneDrive';
-            //     ToolTip = 'Export All To OneDrive';
-            //     Image = LaunchWeb;
+                trigger OnAction()
+                var
+                    NetComInloadService: Record "NetCom Inload Service";
+                    TempBlob: Codeunit "Temp Blob";
+                    OutStream: OutStream;
+                    InStream: InStream;
+                    FileName: Text;
+                    NothingToDownloadErr: Label 'Der er ingen fil i feltet Document Reference ID for kunde %1.', Comment = '%1 = Customer No.';
+                    InloadFileNameLbl: Label 'Inload_%1.csv', Comment = '%1 = Customer No.';
+                begin
+                    NetComInloadService := Rec;
+                    NetComInloadService.SetRecFilter();
+                    if not NetComInloadService.FindFirst() then
+                        exit;
 
-            //     trigger OnAction()
-            //     var
-            //         NetComCustomerPriceService: Codeunit "NetCom Customer Price Service";
-            //     begin
-            //         if Rec.FindSet() then
-            //             repeat
-            //                 NetComCustomerPriceService.ExportToOneDrive(Rec."Customer No.");
-            //             until Rec.Next() = 0;
+                    TempBlob.CreateOutStream(OutStream);
+                    if not NetComInloadService."Document Reference ID".ExportStream(OutStream) then
+                        Error(NothingToDownloadErr, NetComInloadService."Customer No.");
 
-            //     end;
-            // }
-            // group(ExportToOneDrive)
-            // {
-            //     Caption = 'TEST New OneDrive Connection';
+                    TempBlob.CreateInStream(InStream);
+                    FileName := StrSubstNo(InloadFileNameLbl, NetComInloadService."Customer No.");
+                    DownloadFromStream(InStream, '', '', '', FileName);
+
+                end;
+            }
             action(ExportToOneDrive)
             {
                 ApplicationArea = All;
@@ -109,12 +101,12 @@ page 50101 "NetCom Customer Price Service"
 
                 trigger OnAction()
                 var
-                    NetComCustomerPriceService: Record "NetCom Customer Price Service";
+                    NetComInloadService: Record "NetCom Inload Service";
                     NetComOneDriveGraphAPI: Codeunit "NetCom One Drive Graph API";
                 begin
-                    NetComCustomerPriceService := Rec;
-                    NetComCustomerPriceService.SetRecFilter();
-                    NetComOneDriveGraphAPI.UploadFile(NetComCustomerPriceService);
+                    NetComInloadService := Rec;
+                    NetComInloadService.SetRecFilter();
+                    NetComOneDriveGraphAPI.UploadFileInload(NetComInloadService);
                 end;
             }
             action(ExportAllToOneDrive)
@@ -126,22 +118,21 @@ page 50101 "NetCom Customer Price Service"
 
                 trigger OnAction()
                 var
-                    NetComCustomerPriceService: Record "NetCom Customer Price Service";
+                    NetComInloadService: Record "NetCom Inload Service";
                     NetComOneDriveGraphAPI: Codeunit "NetCom One Drive Graph API";
                 begin
                     if Rec.FindSet() then
                         repeat
-                            NetComCustomerPriceService := Rec;
-                            NetComCustomerPriceService.SetRecFilter();
-                            NetComOneDriveGraphAPI.UploadFile(NetComCustomerPriceService);
+                            NetComInloadService := Rec;
+                            NetComInloadService.SetRecFilter();
+                            NetComOneDriveGraphAPI.UploadFileInload(NetComInloadService);
                         until Rec.Next() = 0;
                 end;
             }
-            // }
         }
         area(Promoted)
         {
-            actionref(GeneratePriceListsPromoted; GeneratePriceLists) { }
+            actionref(GenerateFilesPromoted; GenerateFiles) { }
             actionref(ExportToOneDrivePromoted; ExportToOneDrive) { }
             actionref(ExportAllToOneDrivePromoted; ExportAllToOneDrive) { }
         }

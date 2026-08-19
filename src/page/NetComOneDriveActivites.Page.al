@@ -9,7 +9,7 @@ page 50102 "NetCom OneDrive Activites"
     {
         area(Content)
         {
-            cuegroup(OneDrive)
+            cuegroup(OneDriveCustomerPriceLists)
             {
                 Caption = 'Customer - Price Lists';
 
@@ -18,6 +18,16 @@ page 50102 "NetCom OneDrive Activites"
                     ApplicationArea = All;
                     DrillDownPageID = "NetCom Customer Price Service";
                     ToolTip = 'Customer Price Service';
+                }
+            }
+            cuegroup(OneDriveInload)
+            {
+                Caption = 'Inload';
+                field("NetCom Inload - Export"; Rec."NetCom Inload - Export")
+                {
+                    ApplicationArea = All;
+                    DrillDownPageID = "NetCom Inload Service";
+                    ToolTip = 'Inload Service';
                 }
             }
         }
@@ -35,11 +45,11 @@ page 50102 "NetCom OneDrive Activites"
                 Image = Setup;
                 RunObject = page "NetCom OneDrive Setup";
             }
-            action(ExportAllToOneDrive)
+            action(ExportAllToOneDrivePriceLists)
             {
                 ApplicationArea = All;
-                Caption = 'Export All To OneDrive';
-                ToolTip = 'Export All To OneDrive';
+                Caption = 'Export All To OneDrive (Price Lists)';
+                ToolTip = 'Export All To OneDrive (Price Lists)';
                 Image = LaunchWeb;
 
                 trigger OnAction()
@@ -54,6 +64,25 @@ page 50102 "NetCom OneDrive Activites"
                         until NetComCustomerPriceService.Next() = 0;
                 end;
             }
+            action(ExportAllToOneDriveInload)
+            {
+                ApplicationArea = All;
+                Caption = 'Export All To OneDrive (Inload)';
+                ToolTip = 'Export All To OneDrive (Inload)';
+                Image = LaunchWeb;
+
+                trigger OnAction()
+                var
+                    NetComInloadService: Record "NetCom Inload Service";
+                    NetComOneDriveGraphAPI: Codeunit "NetCom One Drive Graph API";
+                begin
+                    NetComInloadService.Reset();
+                    if NetComInloadService.FindSet() then
+                        repeat
+                            NetComOneDriveGraphAPI.UploadFileInload(NetComInloadService);
+                        until NetComInloadService.Next() = 0;
+                end;
+            }
             action(CustomerPriceListExport)
             {
                 ApplicationArea = All;
@@ -61,6 +90,14 @@ page 50102 "NetCom OneDrive Activites"
                 ToolTip = 'Customer Price List Export';
                 Image = LaunchWeb;
                 RunObject = page "NetCom Customer Price Service";
+            }
+            action(InloadExport)
+            {
+                ApplicationArea = All;
+                Caption = 'Inload Export';
+                ToolTip = 'Inload Export';
+                Image = LaunchWeb;
+                RunObject = page "NetCom Inload Service";
             }
         }
     }

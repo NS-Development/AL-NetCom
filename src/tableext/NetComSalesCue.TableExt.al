@@ -9,5 +9,12 @@ tableextension 50101 "NetCom Sales Cue" extends "Sales Cue"
             Editable = false;
             FieldClass = FlowField;
         }
+        field(50101; "NetCom Inload - Export"; Integer)
+        {
+            CalcFormula = count("NetCom Inload Service" where(Export = const(true)));
+            Caption = 'Inload - Ready to Export';
+            Editable = false;
+            FieldClass = FlowField;
+        }
     }
 }

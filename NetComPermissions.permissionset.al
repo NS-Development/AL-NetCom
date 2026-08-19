@@ -9,7 +9,6 @@ permissionset 50100 NetCom_Permissions
         codeunit "Calc. Price Buffer - Price" = X,
         codeunit "NetCom Customer Price Service" = X,
         codeunit "NetCom Event Subscriber" = X,
-        codeunit "NetCom NSW Event Subscriber" = X,
         xmlport "NetCom Import Item Primo" = X,
         page CalcTempPrice = X,
         page "NetCom Customer Price Service" = X,
@@ -24,5 +23,16 @@ permissionset 50100 NetCom_Permissions
         page "NetCom Scan Update Quantity" = X,
         tabledata "NetCom Report Buffer Table" = RIMD,
         table "NetCom Report Buffer Table" = X,
-        report "NetCom Analysis" = X;
+        report "NetCom Analysis" = X,
+        tabledata "NetCom Inload Service" = RIMD,
+        table "NetCom Inload Service" = X,
+        report "NetCom Set Item Values" = X,
+        codeunit "NetCom Functions" = X,
+        page "NetCom Analysis" = X,
+        page "NetCom Inload Service" = X,
+        tabledata "NetCom Cust. Item Assortment" = RIMD,
+        table "NetCom Cust. Item Assortment" = X,
+        codeunit "NetCom Inload Service" = X,
+        codeunit "NetCom Item Excel Import" = X,
+        page "NetCom Cust. Item Assortment" = X;
 }

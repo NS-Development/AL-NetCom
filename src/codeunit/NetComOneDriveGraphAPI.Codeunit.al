@@ -41,6 +41,24 @@ codeunit 50104 "NetCom One Drive Graph API"
         end;
     end;
 
+    procedure UploadFileInload(var NetComInloadService: Record "NetCom Inload Service")
+    var
+        TempBlob: Codeunit "Temp Blob";
+        OutStream: OutStream;
+        Filename: Text;
+    begin
+        TempBlob.CreateOutStream(OutStream);
+
+        if NetComInloadService."Document Reference ID".ExportStream(OutStream) then begin
+            Filename := 'Business Central/' + CompanyName + '/Inload_' + NetComInloadService."Customer No." + '.' + 'csv';
+            if PutFile(Filename, TempBlob.CreateInStream()) then begin
+                NetComInloadService.Validate(NetComInloadService."Latest Export", CurrentDateTime);
+                NetComInloadService.Validate(Export, false);
+                NetComInloadService.Modify(true);
+            end;
+        end;
+    end;
+
     internal procedure PutFile(SourceName: Text; RequestInstream: InStream): Boolean;
     var
         TypeHelper: Codeunit "Type Helper";

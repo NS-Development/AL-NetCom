@@ -171,6 +171,18 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Customer Price Service - Field Cloud Storage Folder ID - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3801530374 - Field 1171137197 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Name</source>
+          <target state="translated">Debitornavn</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Customer Price Service - Field Customer Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3801530374 - Field 1171137197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Name</source>
+          <target state="translated">Debitornavn</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Customer Price Service - Field Customer Name - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3801530374 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer No.</source>
           <target state="translated">Debitornr.</target>
@@ -179,7 +191,7 @@
         </trans-unit>
         <trans-unit id="Table 3801530374 - Field 2431997779 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document Reference ID</source>
-          <target state="needs-translation"/>
+          <target state="translated">Document Reference ID</target>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Customer Price Service - Field Document Reference ID - Property Caption</note>
         </trans-unit>
@@ -212,6 +224,54 @@
           <target state="translated">Undlad Web Beskrivelse</target>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Customer Price Service - Field Skip Web Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 39033734 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inload Service</source>
+          <target state="translated">Inload Service</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Inload Service - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 39033734 - Field 1171137197 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Name</source>
+          <target state="translated">Debitornavn</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Inload Service - Field Customer Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 39033734 - Field 1171137197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Name</source>
+          <target state="translated">Debitornavn</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Inload Service - Field Customer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 39033734 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <target state="translated">Debitornr.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Inload Service - Field Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 39033734 - Field 2431997779 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Reference ID</source>
+          <target state="translated">Document Reference ID</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Inload Service - Field Document Reference ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 39033734 - Field 36190024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export</source>
+          <target state="translated">Udlæs</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Inload Service - Field Export - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 39033734 - Field 3624164725 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Interval</source>
+          <target state="translated">Udlæsnings interval</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Inload Service - Field Export Interval - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 39033734 - Field 2004032321 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Latest Export</source>
+          <target state="translated">Seneste udlæsning</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Inload Service - Field Latest Export - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3482982395 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>NetCom OneDrive Setup</source>
@@ -753,6 +813,30 @@
           <note from="Developer" annotates="general" priority="2">%1 = Posting Date</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Event Subscriber - Method PurchPostOnBeforePostSalesDoc - NamedType Qst001Lbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 39033734 - NamedType 2010710406" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inload_%1.csv</source>
+          <target state="translated">Inload_%1.csv</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Customer No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Inload Service - NamedType InloadFileNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2282690163 - Method 1233118115 - NamedType 3225951371" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vaelg Excel-fil med varedata</source>
+          <target state="translated">Vælg Excel-fil med varedata</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Import - Method ImportItemDataFromExcel - NamedType UploadDialogTitleLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2282690163 - Method 1233118115 - NamedType 1707396675" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Excel files (*.xlsx)|*.xlsx</source>
+          <target state="translated">Excel-filer (*.xlsx)|*.xlsx</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Import - Method ImportItemDataFromExcel - NamedType UploadFilterLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2282690163 - Method 1233118115 - NamedType 1254459490" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import afsluttet. Opdaterede varer: %1. Sprunget over: %2.</source>
+          <target state="translated">Import afsluttet. Opdaterede varer: %1. Sprunget over: %2.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = updated count, %2 = skipped count</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Import - Method ImportItemDataFromExcel - NamedType ImportFinishedMsg</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3538161582 - Method 4102765241 - NamedType 463537070" size-unit="char" translate="yes" xml:space="preserve">
           <source>The call to the webservice failed!\%1</source>
           <target state="translated">Kaldet til webservicen fejlede!%1</target>
@@ -975,23 +1059,125 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Customer Price Service - Action GeneratePriceLists - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 39033734 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inload Export</source>
+          <target state="translated">Inload udlæsning</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Inload Service - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 39033734 - Control 4190130733 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <target state="translated">Debitornr.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Inload Service - Control Customer No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 39033734 - Control 36190024 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export</source>
+          <target state="translated">Udlæs</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Inload Service - Control Export - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 39033734 - Control 3624164725 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Interval</source>
+          <target state="translated">Udlæsnings interval</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Inload Service - Control Export Interval - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 39033734 - Control 2004032321 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Latest Export</source>
+          <target state="translated">Seneste udlæsning</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Inload Service - Control Latest Export - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 39033734 - Action 693890786 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export All To OneDrive</source>
+          <target state="translated">Udlæs alle til OneDrive</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Inload Service - Action ExportAllToOneDrive - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 39033734 - Action 693890786 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export All To OneDrive</source>
+          <target state="translated">Udlæs alle til OneDrive</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Inload Service - Action ExportAllToOneDrive - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 39033734 - Action 927252315 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export To File</source>
+          <target state="translated">Udlæs til fil</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Inload Service - Action ExportToFile - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 39033734 - Action 927252315 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export To File</source>
+          <target state="translated">Udlæs til fil</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Inload Service - Action ExportToFile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 39033734 - Action 927252315 - Method 1377591017 - NamedType 1510708801" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Der er ingen fil i feltet Document Reference ID for kunde %1.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%1 = Customer No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Inload Service - Action ExportToFile - Method OnAction - NamedType NothingToDownloadErr</note>
+        </trans-unit>
+        <trans-unit id="Page 39033734 - Action 927252315 - Method 1377591017 - NamedType 2010710406" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inload_%1.csv</source>
+          <target state="translated">Inload_%1.csv</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Customer No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Inload Service - Action ExportToFile - Method OnAction - NamedType InloadFileNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 39033734 - Action 713643473 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export To OneDrive</source>
+          <target state="translated">Udlæs til OneDrive</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Inload Service - Action ExportToOneDrive - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 39033734 - Action 713643473 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export To OneDrive</source>
+          <target state="translated">Udlæs til OneDrive</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Inload Service - Action ExportToOneDrive - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 39033734 - Action 2971444642 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generate Files</source>
+          <target state="translated">Generér filer</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Inload Service - Action GenerateFiles - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 39033734 - Action 2971444642 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generate Files</source>
+          <target state="translated">Generér filer</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Inload Service - Action GenerateFiles - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2894558432 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>OneDrive Activites</source>
           <target state="translated">OneDrive Aktiviteter</target>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Activites - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 2894558432 - Control 582798060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2894558432 - Control 3460470460 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer - Price Lists</source>
           <target state="translated">Debitor - Prislister</target>
           <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Activites - Control OneDrive - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Activites - Control OneDriveCustomerPriceLists - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2894558432 - Control 3795312709 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer Price Service</source>
           <target state="translated">Debitor pris service</target>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Activites - Control NetCom Price Lists - Export - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2894558432 - Control 3795817843 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inload</source>
+          <target state="translated">Inload</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Activites - Control OneDriveInload - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2894558432 - Control 1414614674 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inload Service</source>
+          <target state="translated">Inload Service</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Activites - Control NetCom Inload - Export - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2894558432 - Action 1388141073 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer Price List Export</source>
@@ -1005,17 +1191,41 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Activites - Action CustomerPriceListExport - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 2894558432 - Action 693890786 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Export All To OneDrive</source>
-          <target state="translated">Udlæs alle til OneDrive</target>
+        <trans-unit id="Page 2894558432 - Action 385918601 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export All To OneDrive (Inload)</source>
+          <target state="translated">Udlæs alle til OneDrive (Inload)</target>
           <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Activites - Action ExportAllToOneDrive - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Activites - Action ExportAllToOneDriveInload - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 2894558432 - Action 693890786 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Export All To OneDrive</source>
-          <target state="translated">Udlæs alle til OneDrive</target>
+        <trans-unit id="Page 2894558432 - Action 385918601 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export All To OneDrive (Inload)</source>
+          <target state="translated">Udlæs alle til OneDrive (Inload)</target>
           <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Activites - Action ExportAllToOneDrive - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Activites - Action ExportAllToOneDriveInload - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2894558432 - Action 3030415238 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export All To OneDrive (Price Lists)</source>
+          <target state="translated">Udlæs alle til OneDrive (Prislister)</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Activites - Action ExportAllToOneDrivePriceLists - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2894558432 - Action 3030415238 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export All To OneDrive (Price Lists)</source>
+          <target state="translated">Udlæs alle til OneDrive (Prislister)</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Activites - Action ExportAllToOneDrivePriceLists - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2894558432 - Action 3125433999 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inload Export</source>
+          <target state="translated">Inload udlæsning</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Activites - Action InloadExport - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2894558432 - Action 3125433999 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inload Export</source>
+          <target state="translated">Inload udlæsning</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom OneDrive Activites - Action InloadExport - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2894558432 - Action 803808795 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>NetCom OneDrive Setup</source>
@@ -1503,6 +1713,36 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension NetCom Customer List - Control NetCom Invoice Payment - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3078750569 - Action 674690507 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Imports item export fields from an Excel file.</source>
+          <target state="translated">Indlæser varer udlæsningsfelter fra en Excel fil.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NetCom Item Card - Action NetComImportItemExcel - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3078750569 - Action 674690507 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Import Item Data (Excel)</source>
+          <target state="translated">Indlæs varedata (Excel)</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NetCom Item Card - Action NetComImportItemExcel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3078750569 - Control 3928137617 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>NetCom Item Export Data</source>
+          <target state="translated">NetCom vareudlæsningsdata</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NetCom Item Card - Control NetComItemExport - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3078750569 - Control 3770806485 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Sales Text</source>
+          <target state="translated">Salgstekst</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NetCom Item Card - Control NetComSalesText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3078750569 - Control 3122136855 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Specifies the sales text for the item.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NetCom Item Card - Control Sales Text - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1208987406 - Action 2307914533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3940806096">
           <source>Import Items</source>
           <target state="translated">Indlæs varer</target>
@@ -1539,6 +1779,24 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Customer - Field NetCom Invoice Payment - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 3341965925 - Method 138608575 - NamedType 261951165" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 3341965925">
+          <source>Loading field %1 will be skipped because there was an error when reading the data.\To fix the current data, contact your administrator.\Alternatively, you can overwrite the current data by entering data in the field.</source>
+          <target state="translated">Indlæsning af feltet %1 springes over, fordi der opstod en fejl under læsning af dataene.\Hvis du vil løse de aktuelle data, skal du kontakte administratoren.\Du kan også overskrive de aktuelle data ved at indsætte data i feltet.</target>
+          <note from="Developer" annotates="general" priority="2">%1=field caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Method NetComGetSalesText - NamedType ReadingDataSkippedMsg</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3341965925 - Field 2946946149 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the data sheet URL for the item.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Field NetCom Data Sheet (URL) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3341965925 - Field 2946946149 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Data Sheet (URL)</source>
+          <target state="translated">Datablad</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Field NetCom Data Sheet (URL) - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3341965925 - Field 438088856 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
           <source>Specifies whether the item is electronic.</source>
           <target state="needs-translation"/>
@@ -1563,6 +1821,54 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Field NetCom Environmental Tax - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 3341965925 - Field 2022728774 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the item number that replaces this item.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Field NetCom Expired replaced by - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3341965925 - Field 2022728774 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Expired replaced by</source>
+          <target state="translated">Udgået erstattes af</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Field NetCom Expired replaced by - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3341965925 - Field 2164264409 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the item name (30 characters) for the item.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Field NetCom Item Name 30 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3341965925 - Field 2164264409 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Item Name 30</source>
+          <target state="translated">Varenavn 30</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Field NetCom Item Name 30 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3341965925 - Field 1389047950 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the item name (60 characters) for the item.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Field NetCom Item Name 60 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3341965925 - Field 1389047950 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Item Name 60</source>
+          <target state="translated">Varenavn 60</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Field NetCom Item Name 60 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3341965925 - Field 3133228778 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the item name (64 characters) for the item.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Field NetCom Item Name 64 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3341965925 - Field 3133228778 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Item Name 64</source>
+          <target state="translated">Varenavn 64</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Field NetCom Item Name 64 - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3341965925 - Field 2281047339 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
           <source>Packaging.</source>
           <target state="translated">Emballage</target>
@@ -1574,6 +1880,48 @@
           <target state="translated">Emballage</target>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Field NetCom Packaging - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3341965925 - Field 1410877845 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the sales text for the item.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Field NetCom Sales Text - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3341965925 - Field 1410877845 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Sales Text</source>
+          <target state="translated">Salgstekst</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Field NetCom Sales Text - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3341965925 - Field 3412008778 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the UNSPSC code for the item.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Field NetCom UNSPSC - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3341965925 - Field 3412008778 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>UNSPSC</source>
+          <target state="translated">UNSPSC</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Field NetCom UNSPSC - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3341965925 - Field 2843638377 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the user manual URL for the item.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Field NetCom User Manual (URL) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3341965925 - Field 2843638377 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>User Manual (URL)</source>
+          <target state="translated">Brugervejledning</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Field NetCom User Manual (URL) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4168907383 - Field 1414614674 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 388441093">
+          <source>Inload - Ready to Export</source>
+          <target state="translated">Klar til udlæsning</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Sales Cue - Field NetCom Inload - Export - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 4168907383 - Field 3795312709 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 388441093">
           <source>Price Lists - Ready to Export</source>

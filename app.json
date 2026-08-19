@@ -2,7 +2,7 @@
   "id": "0180eca5-d227-4675-be60-1f0a6a7b1ed1",
   "name": "NetCom_Extension",
   "publisher": "Navisupport",
-  "version": "22.0.4.9",
+  "version": "22.0.5.0",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -11,17 +11,17 @@
   "url": "",
   "logo": "",
   "dependencies": [
-    {  
+    {
       "id": "3ced93cf-0ffb-4e8b-8273-3ea2db6cbb57",
       "publisher": "Navisupport",
       "name": "NS-Webshop",
-      "version": "21.6.16.2"
-    },
-    {  
+      "version": "23.6.17.39"
+    }
+    ,{  
       "id": "b0d36c31-6425-4708-b9be-40999a248d8c",
       "publisher": "Navisupport",
       "name": "NetCom_WebshopInfo_Import",
-      "version": "22.0.0.0"
+      "version": "22.0.1.1"
     },
     {  
       "id": "14340ba6-5934-4145-8e14-dbf1846fef80",
@@ -36,7 +36,7 @@
   "idRanges": [
     {
       "from": 50100,
-      "to": 50149
+      "to": 50249
     }
   ],
   "resourceExposurePolicy": {
