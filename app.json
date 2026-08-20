@@ -2,7 +2,7 @@
   "id": "0180eca5-d227-4675-be60-1f0a6a7b1ed1",
   "name": "NetCom_Extension",
   "publisher": "Navisupport",
-  "version": "22.0.6.0",
+  "version": "22.0.7.0",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -40,9 +40,9 @@
     }
   ],
   "resourceExposurePolicy": {
-    "allowDebugging": true,
-    "allowDownloadingSource": true,
-    "includeSourceInSymbolFile": true
+    "allowDebugging": false,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
   },
   "supportedLocales": ["en-US", "da-DK"],
     "features": ["TranslationFile", "NoImplicitWith"],

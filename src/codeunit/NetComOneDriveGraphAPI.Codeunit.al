@@ -4,12 +4,14 @@ codeunit 50104 "NetCom One Drive Graph API"
     var
         NetComCustomerPriceService: Record "NetCom Customer Price Service";
         NetComCustomerPriceService2: Record "NetCom Customer Price Service";
+        NetComInloadService: Record "NetCom Inload Service";
+        NetComInloadService2: Record "NetCom Inload Service";
         JobQueueEntry: Record "Job Queue Entry";
         NetComOneDriveGraphAPI: Codeunit "NetCom One Drive Graph API";
     begin
         JobQueueEntry.Reset();
         JobQueueEntry.SetRange("Object Type to Run", JobQueueEntry."Object Type to Run"::Codeunit);
-        JobQueueEntry.SetRange("Object ID to Run", 50103); //NetCom Customer Price Service
+        JobQueueEntry.SetFilter("Object ID to Run", '%1|%2', 50103, 50107); //NetCom Customer Price Service
         JobQueueEntry.SetRange("Status", JobQueueEntry."Status"::"In Process");
         if JobQueueEntry.IsEmpty then begin
             NetComCustomerPriceService.Reset();
@@ -20,6 +22,15 @@ codeunit 50104 "NetCom One Drive Graph API"
                     NetComCustomerPriceService2.SetRecFilter();
                     NetComOneDriveGraphAPI.UploadFile(NetComCustomerPriceService2);
                 until NetComCustomerPriceService.Next() = 0;
+
+            NetComInloadService.Reset();
+            NetComInloadService.SetRange(Export, true);
+            if NetComInloadService.FindSet() then
+                repeat
+                    NetComInloadService2 := NetComInloadService;
+                    NetComInloadService2.SetRecFilter();
+                    NetComOneDriveGraphAPI.UploadFileInload(NetComInloadService2);
+                until NetComInloadService.Next() = 0;
         end;
     end;
 

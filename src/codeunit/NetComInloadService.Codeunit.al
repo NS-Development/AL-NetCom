@@ -2,10 +2,10 @@ codeunit 50107 "NetCom Inload Service"
 {
     trigger OnRun()
     begin
-        ExportInloadFiles();
+        ExportInloadFiles(false);
     end;
 
-    local procedure ExportInloadFiles()
+    procedure ExportInloadFiles(ForceGenerateFile: Boolean)
     var
         NetComInloadService: Record "NetCom Inload Service";
         NetComInloadService2: Record "NetCom Inload Service";
@@ -31,7 +31,7 @@ codeunit 50107 "NetCom Inload Service"
                         MillisecondsToRemove := 604800000;
                 end;
 
-                if ExportInloadFile(NetComInloadService, MillisecondsToRemove) then begin
+                if ExportInloadFile(NetComInloadService, MillisecondsToRemove, ForceGenerateFile) then begin
                     NetComInloadService2.Reset();
                     NetComInloadService2.SetRange("Customer No.", NetComInloadService."Customer No.");
                     if NetComInloadService2.FindFirst() then begin
@@ -42,7 +42,7 @@ codeunit 50107 "NetCom Inload Service"
             until NetComInloadService.Next() = 0;
     end;
 
-    local procedure ExportInloadFile(NetComInloadService: Record "NetCom Inload Service"; Milliseconds: BigInteger): Boolean
+    local procedure ExportInloadFile(NetComInloadService: Record "NetCom Inload Service"; Milliseconds: BigInteger; ForceGenerateFile: Boolean): Boolean
     var
         Customer: Record Customer;
         NetComInloadService2: Record "NetCom Inload Service";
@@ -57,7 +57,7 @@ codeunit 50107 "NetCom Inload Service"
         if not Customer.Get(NetComInloadService."Customer No.") then
             exit(false);
 
-        if ((CurrentDateTime - Duration) >= NetComInloadService."Latest Export") or (NetComInloadService."Latest Export" = 0DT) then begin
+        if ForceGenerateFile or ((CurrentDateTime - Duration) >= NetComInloadService."Latest Export") or (NetComInloadService."Latest Export" = 0DT) then begin
             BuildInloadCsv(CsvBuilder, Customer."No.");
 
             // Use Windows encoding so Danish characters render correctly in Excel/CSV viewers.

@@ -56,8 +56,10 @@ page 50108 "NetCom Inload Service"
                 Image = Export;
 
                 trigger OnAction()
+                var
+                    NetComInloadService: Codeunit "NetCom Inload Service";
                 begin
-                    Codeunit.Run(Codeunit::"NetCom Inload Service");
+                    NetComInloadService.ExportInloadFiles(true);
                 end;
             }
             action(ExportToFile)
