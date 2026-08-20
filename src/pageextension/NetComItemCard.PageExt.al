@@ -26,6 +26,10 @@ pageextension 50107 "NetCom Item Card" extends "Item Card"
                 {
                     ApplicationArea = All;
                 }
+                field("NetCom Item Name 30 (Text)"; Rec."NetCom Item Name 30 (Text)")
+                {
+                    ApplicationArea = All;
+                }
                 field("NetCom Item Name 30"; Rec."NetCom Item Name 30")
                 {
                     ApplicationArea = All;

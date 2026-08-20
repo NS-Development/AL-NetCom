@@ -103,7 +103,7 @@ codeunit 50107 "NetCom Inload Service"
     begin
         Clear(CsvBuilder);
         CsvBuilder.AppendLine(
-            'EAN;Varenr.;TEKST30;TEKST60;Produktnavn;Salgstekst;Basisenhed;Forpakning 1;Forpakning 2;Bruttovægt inkl. emballage (kg.);Nettovægt (kg.);Volumen i DM3;Længde(MM) i Emballage;Bredde(MM) i Emballage;Højde(MM) i Emballage;Valuta;Bruttopris;Rabat %;Nettopris;Toldnr.;Oprindelsesland;UNSPSC;Udgået erstattes af;Produktbillede;Leverandør URL;Vejledning;Datablad;Leveringstid;Minimumsbestilling;Ordremultiplum;Brand;Udgået;Miljøafgift');
+            'EAN;Varenr.;TEKST30 (Tekst);TEKST30;TEKST60;Produktnavn;Salgstekst;Basisenhed;Forpakning 1;Forpakning 2;Bruttovægt inkl. emballage (kg.);Nettovægt (kg.);Volumen i DM3;Længde(MM) i Emballage;Bredde(MM) i Emballage;Højde(MM) i Emballage;Valuta;Bruttopris;Rabat %;Nettopris;Toldnr.;Oprindelsesland;UNSPSC;Udgået erstattes af;Produktbillede;Leverandør URL;Vejledning;Datablad;Leveringstid;Minimumsbestilling;Ordremultiplum;Brand;Udgået;Miljøafgift');
 
         NetComCustItemAssortment.Reset();
         NetComCustItemAssortment.SetRange("Customer No.", CustomerNo);
@@ -134,6 +134,7 @@ codeunit 50107 "NetCom Inload Service"
                         Clear(LineBuilder);
                         AppendCsvField(LineBuilder, Item.GTIN);
                         AppendCsvField(LineBuilder, Item."No.");
+                        AppendCsvField(LineBuilder, Format(Item."NetCom Item Name 30 (Text)"));
                         AppendCsvField(LineBuilder, Format(Item."NetCom Item Name 30"));
                         AppendCsvField(LineBuilder, Format(Item."NetCom Item Name 60"));
                         AppendCsvField(LineBuilder, Item."NetCom Item Name 64");

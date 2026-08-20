@@ -57,12 +57,17 @@ tableextension 50104 "NetCom Item" extends Item
             Caption = 'User Manual (URL)';
             ToolTip = 'Specifies the user manual URL for the item.';
         }
-        // field(50156; "NetCom Data Sheet (URL)"; Text[250])
-        // {
-        //     DataClassification = ToBeClassified;
-        //     Caption = 'Data Sheet (URL)';
-        //     ToolTip = 'Specifies the data sheet URL for the item.';
-        // }
+        field(50156; "NetCom Item Name 30 (Text)"; Text[30])
+        {
+            DataClassification = ToBeClassified;
+            Caption = 'Item Name 30 (Text)';
+            ToolTip = 'Specifies the item name (30 characters) for the item as text.';
+
+            trigger OnValidate()
+            begin
+                Rec.Validate("NetCom Item Name 30", Rec."NetCom Item Name 30 (Text)");
+            end;
+        }
         field(50157; "NetCom UNSPSC"; Code[8])
         {
             DataClassification = ToBeClassified;

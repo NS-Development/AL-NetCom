@@ -1887,6 +1887,18 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Field NetCom Item Name 30 - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 3341965925 - Field 3666519277 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the item name (30 characters) for the item as text.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Field NetCom Item Name 30 (Text) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3341965925 - Field 3666519277 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Item Name 30 (Text)</source>
+          <target state="translated">Varenavn 30 (Tekst)</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NetCom Item - Field NetCom Item Name 30 (Text) - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3341965925 - Field 1389047950 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
           <source>Specifies the item name (60 characters) for the item.</source>
           <target state="needs-translation"/>
