@@ -33,6 +33,7 @@ pageextension 50107 "NetCom Item Card" extends "Item Card"
                 field("NetCom Item Name 30"; Rec."NetCom Item Name 30")
                 {
                     ApplicationArea = All;
+                    Editable = false;
                 }
                 field("NetCom Item Name 60"; Rec."NetCom Item Name 60")
                 {

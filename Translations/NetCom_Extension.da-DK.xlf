@@ -855,6 +855,156 @@
           <note from="Developer" annotates="general" priority="2">%1 = Customer No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Inload Service - NamedType InloadFileNameLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 220250249 - NamedType 1359101026" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bruttovægt inkl. emballage</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - NamedType GrossWeightColumnLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 220250249 - NamedType 4207241325" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Højde</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - NamedType HeightColumnLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 220250249 - NamedType 608091938" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inload Service (Debitor)</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - NamedType InloadServiceFilterFilterLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 220250249 - NamedType 2214913849" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ugyldig talværdi på række %1 i kolonnen %2: %3.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%1 = row no, %2 = column caption, %3 = raw cell value</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - NamedType InvalidDecimalErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 220250249 - NamedType 1017275193" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Varer</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - NamedType ItemFilterFilterLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 220250249 - NamedType 3223399735" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Varenavn 30</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - NamedType ItemName30ColumnLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 220250249 - NamedType 3283426388" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Varenavn 30 (tekst)</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - NamedType ItemName30TextColumnLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 220250249 - NamedType 3759131572" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Varenavn 60</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - NamedType ItemName60ColumnLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 220250249 - NamedType 1209842096" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Varenavn 64</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - NamedType ItemName64ColumnLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 220250249 - NamedType 2846228316" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Varenr.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - NamedType ItemNoColumnLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 220250249 - NamedType 1847950148" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Længde</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - NamedType LengthColumnLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 220250249 - NamedType 2626417285" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nettovægt</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - NamedType NetWeightColumnLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 220250249 - NamedType 1848980540" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Oprindelsesland</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - NamedType OriginCountryColumnLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 220250249 - NamedType 2331156326" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Forpakning 1</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - NamedType Packaging1ColumnLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 220250249 - NamedType 424887891" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Forpakning 2</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - NamedType Packaging2ColumnLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 220250249 - NamedType 1458691913" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Udgået erstattes af</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - NamedType ReplacedByColumnLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 220250249 - NamedType 3942832470" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tariff nr.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - NamedType TariffColumnLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 220250249 - NamedType 2167804248" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UNSPSC</source>
+          <target state="translated">UNSPSC</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - NamedType UnspscColumnLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 220250249 - NamedType 2541063841" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Brugermanual (URL)</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - NamedType UserManualColumnLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 220250249 - NamedType 2557441710" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bredde</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - NamedType WidthColumnLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 220250249 - Method 4186040756 - NamedType 379134039" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NetCom_Item_ExportImport</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - Method ExportTemplateToExcel - NamedType WorkbookNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 220250249 - Method 4186040756 - NamedType 2290543613" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ItemData</source>
+          <target state="translated">Varedata</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - Method ExportTemplateToExcel - NamedType WorksheetNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 220250249 - Method 2057408104 - NamedType 3225951371" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vælg Excel-fil med varedata</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - Method ImportTemplateFromExcel - NamedType UploadDialogTitleLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 220250249 - Method 2057408104 - NamedType 1707396675" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Excel files (*.xlsx)|*.xlsx</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - Method ImportTemplateFromExcel - NamedType UploadFilterLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 220250249 - Method 2057408104 - NamedType 1254459490" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import afsluttet. Opdaterede varer: %1. Sprunget over: %2.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%1 = updated count, %2 = skipped count</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - Method ImportTemplateFromExcel - NamedType ImportFinishedMsg</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2282690163 - Method 1233118115 - NamedType 3225951371" size-unit="char" translate="yes" xml:space="preserve">
           <source>Vaelg Excel-fil med varedata</source>
           <target state="translated">Vælg Excel-fil med varedata</target>
@@ -1808,6 +1958,42 @@
           <target state="translated">Indlæs varer</target>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension NetCom Item Journal - Action ImportItems - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 23892795 - Action 2604689316 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Export separate Excel template for NetCom item data.</source>
+          <target state="translated">Udlæser Excel skabelon med NetCom varedata.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NetCom Item List - Action NetComExportItemDataExcel - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 23892795 - Action 2604689316 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Export Item Data (Excel)</source>
+          <target state="translated">Udlæs varedata (Excel)</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NetCom Item List - Action NetComExportItemDataExcel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 23892795 - Action 2740163403 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Import separate Excel template and update NetCom item data.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NetCom Item List - Action NetComImportItemDataExcel - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 23892795 - Action 2740163403 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Import Item Data (Excel)</source>
+          <target state="translated">Indlæs varedata (Excel)</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NetCom Item List - Action NetComImportItemDataExcel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 23892795 - Action 3641255315 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>NetCom</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NetCom Item List - Action NetComGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 23892795 - Action 316781585 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Export/Import Data</source>
+          <target state="translated">Udlæs/Indlæs data</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NetCom Item List - Action NetComExportImportData - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1178970668 - Action 4260614985 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
           <source>Scan the EAN code or serial number of the item.</source>
