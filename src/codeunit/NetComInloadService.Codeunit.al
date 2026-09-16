@@ -224,7 +224,7 @@ codeunit 50107 "NetCom Inload Service"
         if (LengthMm = 0) or (WidthMm = 0) or (HeightMm = 0) then
             exit(0);
 
-        exit((LengthMm) * (WidthMm) * (HeightMm));
+        exit(((LengthMm) * (WidthMm) * (HeightMm)) / 1000000);
     end;
 
     local procedure GetExpectedDeliveryText(var Item: Record Item): Text
