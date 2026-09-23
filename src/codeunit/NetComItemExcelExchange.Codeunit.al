@@ -115,6 +115,8 @@ codeunit 50120 "NetCom Item Excel Exchange"
         TempExcelBuffer: Record "Excel Buffer" temporary;
         Item: Record Item;
         TempBlob: Codeunit "Temp Blob";
+        LeadTimeCalculationDateFormula: DateFormula;
+        LocalDateFormula: DateFormula;
         UploadInStream: InStream;
         OpenBookInStream: InStream;
         SheetNameInStream: InStream;
@@ -134,6 +136,7 @@ codeunit 50120 "NetCom Item Excel Exchange"
         LengthValue: Decimal;
         WidthValue: Decimal;
         HeightValue: Decimal;
+        LeadTimeCalculationText: Text;
         UploadDialogTitleLbl: Label 'Vælg Excel-fil med varedata';
         UploadFilterLbl: Label 'Excel files (*.xlsx)|*.xlsx';
         ImportFinishedMsg: Label 'Import afsluttet. Opdaterede varer: %1. Sprunget over: %2.', Comment = '%1 = updated count, %2 = skipped count';
@@ -189,6 +192,12 @@ codeunit 50120 "NetCom Item Excel Exchange"
                 Item."NetCom UNSPSC" := CopyStr(GetCellText(TempExcelBuffer, RowNo, 10), 1, MaxStrLen(Item."NetCom UNSPSC"));
                 Item."NetCom Expired replaced by" := CopyStr(GetCellText(TempExcelBuffer, RowNo, 11), 1, MaxStrLen(Item."NetCom Expired replaced by"));
                 Item."NetCom User Manual (URL)" := CopyStr(GetCellText(TempExcelBuffer, RowNo, 12), 1, MaxStrLen(Item."NetCom User Manual (URL)"));
+                LeadTimeCalculationText := GetCellText(TempExcelBuffer, RowNo, 18);
+                if LeadTimeCalculationText = '' then
+                    LeadTimeCalculationDateFormula := LocalDateFormula
+                else
+                    Evaluate(LeadTimeCalculationDateFormula, LeadTimeCalculationText);
+                Item.Validate("Lead Time Calculation", LeadTimeCalculationDateFormula);
 
                 Item.Modify(true);
 
@@ -226,6 +235,7 @@ codeunit 50120 "NetCom Item Excel Exchange"
         AddExcelTextColumn(TempExcelBuffer, LengthColumnLbl);
         AddExcelTextColumn(TempExcelBuffer, WidthColumnLbl);
         AddExcelTextColumn(TempExcelBuffer, HeightColumnLbl);
+        AddExcelTextColumn(TempExcelBuffer, LeadDeliveryTimeColumnLbl);
     end;
 
     local procedure BuildItemRow(var TempExcelBuffer: Record "Excel Buffer" temporary; Item: Record Item; Packaging1Qty: Decimal; Packaging2Qty: Decimal; LengthValue: Decimal; WidthValue: Decimal; HeightValue: Decimal)
@@ -248,6 +258,7 @@ codeunit 50120 "NetCom Item Excel Exchange"
         AddExcelNumberColumn(TempExcelBuffer, LengthValue);
         AddExcelNumberColumn(TempExcelBuffer, WidthValue);
         AddExcelNumberColumn(TempExcelBuffer, HeightValue);
+        AddExcelTextColumn(TempExcelBuffer, Format(Item."Lead Time Calculation"));
     end;
 
     local procedure AddExcelTextColumn(var TempExcelBuffer: Record "Excel Buffer" temporary; ValueText: Text)
@@ -526,6 +537,7 @@ codeunit 50120 "NetCom Item Excel Exchange"
         LengthColumnLbl: Label 'Længde';
         WidthColumnLbl: Label 'Bredde';
         HeightColumnLbl: Label 'Højde';
+        LeadDeliveryTimeColumnLbl: Label 'Leveringstid';
         CustomerNoRequiredErr: Label 'Du skal angive et debitornr. i filteret.';
         SingleCustomerOnlyErr: Label 'Der må kun filtreres på ét debitornr.';
         InvalidDecimalErr: Label 'Ugyldig talværdi på række %1 i kolonnen %2: %3.', Comment = '%1 = row no, %2 = column caption, %3 = raw cell value';
