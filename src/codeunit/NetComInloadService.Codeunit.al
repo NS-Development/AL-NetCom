@@ -86,6 +86,7 @@ codeunit 50107 "NetCom Inload Service"
         NetComWebImpProductData2: Record "NetCom Web Imp. Product Data";
         ItemUnitOfMeasure: Record "Item Unit of Measure";
         NetComCustItemAssortment: Record "NetCom Cust. Item Assortment";
+        NSWDeliveryTime: Record "NSW Delivery Time";
         LineBuilder: TextBuilder;
         SalesText: Text;
         DeliveryText: Text;
@@ -103,7 +104,7 @@ codeunit 50107 "NetCom Inload Service"
     begin
         Clear(CsvBuilder);
         CsvBuilder.AppendLine(
-            'EAN;Varenr.;TEKST30 (Tekst);TEKST30;TEKST60;Produktnavn;Salgstekst;Basisenhed;Forpakning 1;Forpakning 2;Bruttovægt inkl. emballage (kg.);Nettovægt (kg.);Volumen i DM3;Længde(MM) i Emballage;Bredde(MM) i Emballage;Højde(MM) i Emballage;Valuta;Bruttopris;Rabat %;Nettopris;Toldnr.;Oprindelsesland;UNSPSC;Udgået erstattes af;Produktbillede;Leverandør URL;Vejledning;Datablad;Leveringstid;Minimumsbestilling;Ordremultiplum;Brand;Udgået;Miljøafgift');
+            'EAN;Varenr.;TEKST30 (Tekst);TEKST30;TEKST60;Produktnavn;Salgstekst;Basisenhed;Forpakning 1;Forpakning 2;Bruttovægt inkl. emballage (kg.);Nettovægt (kg.);Volumen i DM3;Længde(MM) i Emballage;Bredde(MM) i Emballage;Højde(MM) i Emballage;Valuta;Bruttopris;Rabat %;Nettopris;Toldnr.;Oprindelsesland;UNSPSC;Udgået erstattes af;Produktbillede;Leverandør URL;Vejledning;Datablad;Leveringstid;Minimumsbestilling;Ordremultiplum;Brand;Udgået;Miljøafgift;Leveringstid');
 
         NetComCustItemAssortment.Reset();
         NetComCustItemAssortment.SetRange("Customer No.", CustomerNo);
@@ -166,6 +167,7 @@ codeunit 50107 "NetCom Inload Service"
                         AppendCsvField(LineBuilder, BrandText);
                         AppendCsvField(LineBuilder, DiscontinuedText);
                         AppendCsvField(LineBuilder, FormatDecimal(Item."NetCom Environmental Tax", 2));
+                        AppendCsvField(LineBuilder, Format(Item."Lead Time Calculation"));
 
                         CsvBuilder.AppendLine(LineBuilder.ToText());
                     end;
