@@ -19,6 +19,11 @@ tableextension 50104 "NetCom Item" extends Item
             DataClassification = ToBeClassified;
             Caption = 'Packaging';
             ToolTip = 'Packaging.';
+
+            trigger OnValidate()
+            begin
+                UpdateEnvironmentalTax();
+            end;
         }
         field(50150; "NetCom Item Name 30"; Code[30])
         {
@@ -74,7 +79,28 @@ tableextension 50104 "NetCom Item" extends Item
             Caption = 'UNSPSC';
             ToolTip = 'Specifies the UNSPSC code for the item.';
         }
+        modify("Net Weight")
+        {
+            trigger OnAfterValidate()
+            begin
+                UpdateEnvironmentalTax();
+            end;
+        }
+        modify("Gross Weight")
+        {
+            trigger OnAfterValidate()
+            begin
+                UpdateEnvironmentalTax();
+            end;
+        }
     }
+
+    local procedure UpdateEnvironmentalTax()
+    var
+        EnvironmentalTax: Codeunit "NetCom Environmental Tax";
+    begin
+        EnvironmentalTax.UpdateItemTax(Rec);
+    end;
 
     procedure NetComSetSalesText(SalesText: Text)
     var

@@ -34,5 +34,11 @@ permissionset 50100 NetCom_Permissions
         table "NetCom Cust. Item Assortment" = X,
         codeunit "NetCom Inload Service" = X,
         codeunit "NetCom Item Excel Import" = X,
-        page "NetCom Cust. Item Assortment" = X;
+        page "NetCom Cust. Item Assortment" = X,
+        tabledata "NetCom Setup" = RIMD,
+        table "NetCom Setup" = X,
+        table "NetCom Env. Tax Preview" = X,
+        codeunit "NetCom Environmental Tax" = X,
+        page "NetCom Setup" = X,
+        page "NetCom Env. Tax Preview" = X;
 }

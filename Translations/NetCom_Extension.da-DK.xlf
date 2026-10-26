@@ -261,6 +261,48 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Customer Price Service - Field Skip Web Description - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1097392662 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Environmental Tax Preview</source>
+          <target state="translated">Forhåndsvisning af miljøafgift</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Env. Tax Preview - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1097392662 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Beskrivelse</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Env. Tax Preview - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1097392662 - Field 641776474 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Existing Environmental Tax</source>
+          <target state="translated">Eksisterende miljøafgift</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Env. Tax Preview - Field Existing Environmental Tax - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1097392662 - Field 1342989771 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Modified At</source>
+          <target state="translated">Vare ændret den</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Env. Tax Preview - Field Item Modified At - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1097392662 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <target state="translated">Varenr.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Env. Tax Preview - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1097392662 - Field 4119133259 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Environmental Tax</source>
+          <target state="translated">Ny miljøafgift</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Env. Tax Preview - Field New Environmental Tax - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1097392662 - Field 3891309073 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Packaging Weight</source>
+          <target state="translated">Emballagevægt</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Env. Tax Preview - Field Packaging Weight - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 39033734 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Inload Service</source>
           <target state="translated">Inload Service</target>
@@ -843,6 +885,42 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Report Buffer Table - Field User Id - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3046051947 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NetCom Setup</source>
+          <target state="translated">NetCom-opsætning</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3046051947 - Field 3850764132 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the environmental tax per kilogram of packaging. Packaging weight is gross weight minus net weight, with a minimum of zero.</source>
+          <target state="translated">Angiver miljøafgiften pr. kg emballage. Emballagevægten er bruttovægt minus nettovægt, dog mindst nul.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Setup - Field Environmental Tax per Kg. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3046051947 - Field 3850764132 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Environmental Tax per Kg.</source>
+          <target state="translated">Miljøafgift pr. kg</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Setup - Field Environmental Tax per Kg. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3046051947 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <target state="translated">Primær nøgle</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NetCom Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 792649829 - Method 1005930242 - NamedType 1344191236" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The environmental tax rate has changed. Close the preview and open it again before updating items.</source>
+          <target state="translated">Satsen for miljøafgift er ændret. Luk forhåndsvisningen, og åbn den igen, før du opdaterer varerne.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Environmental Tax - Method ApplyPreview - NamedType SetupChangedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 792649829 - Method 1005930242 - NamedType 1964914094" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item %1 has changed or been deleted. Close the preview and open it again before updating items.</source>
+          <target state="translated">Vare %1 er ændret eller slettet. Luk forhåndsvisningen, og åbn den igen, før du opdaterer varerne.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Item number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Environmental Tax - Method ApplyPreview - NamedType ItemChangedErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2918984460 - Method 705885496 - NamedType 872318431" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting date is %1.\Do you want to continue?</source>
           <target state="translated">Bogføringsdato er %1.\Ønsker du at fortsætte?</target>
@@ -855,6 +933,12 @@
           <note from="Developer" annotates="general" priority="2">%1 = Customer No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Inload Service - NamedType InloadFileNameLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 220250249 - NamedType 1752584451" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Du skal angive et debitornr. i filteret.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - NamedType CustomerNoRequiredErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 220250249 - NamedType 1359101026" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bruttovægt inkl. emballage</source>
           <target state="needs-translation"/>
@@ -866,12 +950,6 @@
           <target state="needs-translation"/>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - NamedType HeightColumnLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 220250249 - NamedType 608091938" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Inload Service (Debitor)</source>
-          <target state="needs-translation"/>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - NamedType InloadServiceFilterFilterLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 220250249 - NamedType 2214913849" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ugyldig talværdi på række %1 i kolonnen %2: %3.</source>
@@ -915,6 +993,12 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - NamedType ItemNoColumnLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 220250249 - NamedType 4159646075" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Leveringstid</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - NamedType LeadDeliveryTimeColumnLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 220250249 - NamedType 1847950148" size-unit="char" translate="yes" xml:space="preserve">
           <source>Længde</source>
           <target state="needs-translation"/>
@@ -950,6 +1034,12 @@
           <target state="needs-translation"/>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - NamedType ReplacedByColumnLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 220250249 - NamedType 1340093081" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Der må kun filtreres på ét debitornr.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit NetCom Item Excel Exchange - NamedType SingleCustomerOnlyErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 220250249 - NamedType 3942832470" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tariff nr.</source>
@@ -1250,6 +1340,66 @@
           <target state="translated">Generer prislister</target>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Customer Price Service - Action GeneratePriceLists - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1097392662 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Environmental Tax Preview</source>
+          <target state="translated">Forhåndsvisning af miljøafgift</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Env. Tax Preview - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1097392662 - Method 716454850 - NamedType 3961641399" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No packaging items need their environmental tax updated.</source>
+          <target state="translated">Ingen emballagevarer har behov for opdatering af miljøafgiften.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Env. Tax Preview - Method OnOpenPage - NamedType NoChangesMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 1097392662 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the item description.</source>
+          <target state="translated">Angiver varens beskrivelse.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Env. Tax Preview - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1097392662 - Control 641776474 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the environmental tax currently stored on the item.</source>
+          <target state="translated">Angiver den miljøafgift, der aktuelt er gemt på varen.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Env. Tax Preview - Control Existing Environmental Tax - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1097392662 - Control 568743302 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the item to update.</source>
+          <target state="translated">Angiver varen, der skal opdateres.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Env. Tax Preview - Control Item No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1097392662 - Control 4119133259 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies packaging weight multiplied by the environmental tax per kilogram, rounded to two decimal places.</source>
+          <target state="translated">Angiver emballagevægten ganget med miljøafgiften pr. kg, afrundet til to decimaler.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Env. Tax Preview - Control New Environmental Tax - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1097392662 - Control 3891309073 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies gross weight minus net weight in kilograms, with a minimum of zero.</source>
+          <target state="translated">Angiver bruttovægt minus nettovægt i kg, dog mindst nul.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Env. Tax Preview - Control Packaging Weight - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1097392662 - Action 1873368169 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Updates all items in the preview, including items hidden by filters, with the new environmental tax.</source>
+          <target state="translated">Opdaterer alle varer i forhåndsvisningen med den nye miljøafgift, også varer skjult af filtre.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Env. Tax Preview - Action UpdateItems - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1097392662 - Action 1873368169 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update Items</source>
+          <target state="translated">Opdater varer</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Env. Tax Preview - Action UpdateItems - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1097392662 - Action 1873368169 - Method 1377591017 - NamedType 2065106392" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 items were updated.</source>
+          <target state="translated">%1 varer blev opdateret.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Number of updated items</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Env. Tax Preview - Action UpdateItems - Method OnAction - NamedType UpdatedMsg</note>
         </trans-unit>
         <trans-unit id="Page 39033734 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Inload Export</source>
@@ -1634,6 +1784,30 @@
           <target state="translated">Antal scannet</target>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Scan Update Quantity - Control ScannedQty - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3046051947 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NetCom Setup</source>
+          <target state="translated">NetCom-opsætning</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3046051947 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target state="translated">Generelt</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Setup - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3046051947 - Action 2947192474 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens a preview of packaging items whose environmental tax will change. No items are updated until you choose Update Items.</source>
+          <target state="translated">Åbner en forhåndsvisning af emballagevarer, hvis miljøafgift ændres. Ingen varer opdateres, før du vælger Opdater varer.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Setup - Action UpdateAllItems - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3046051947 - Action 2947192474 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update All Items</source>
+          <target state="translated">Opdater alle varer</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NetCom Setup - Action UpdateAllItems - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2023422840 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Analysis</source>

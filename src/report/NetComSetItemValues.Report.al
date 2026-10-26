@@ -21,7 +21,7 @@ report 50102 "NetCom Set Item Values"
                     '1003',
                     '1008':
                         begin
-                            Item."NetCom Packaging" := true;
+                            Item.Validate("NetCom Packaging", true);
                             Item.Modify();
                         end;
                 end;
